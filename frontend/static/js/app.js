@@ -288,6 +288,37 @@ function renderMarkers() {
   });
 }
 
+function renderFuelItemHtml(k, f) {
+  if (!f) return '';
+  const label = k === 'dt' ? 'ДТ' : k;
+  const isAvail = !!f.available;
+  const cls = isAvail ? 'available' : 'unavailable';
+  
+  let priceText = '—';
+  let priceExtraCls = '';
+  
+  if (isAvail) {
+    if (f.price > 0) {
+      priceText = `${f.price.toFixed(2)} ₽`;
+    } else {
+      priceText = 'Есть';
+      priceExtraCls = 'in-stock';
+    }
+  } else {
+    priceText = 'Нет';
+  }
+
+  const limitHtml = f.limit ? `<div class="fuel-limit">${f.limit}</div>` : '';
+
+  return `
+    <div class="fuel-item ${cls}">
+      <div class="fuel-tag">${label}</div>
+      <div class="fuel-price ${priceExtraCls}">${priceText}</div>
+      ${limitHtml}
+    </div>
+  `;
+}
+
 function buildPopupContent(s) {
   const meta = getBrandMeta(s.brand);
   const fuels = s.fuels || {};
@@ -298,17 +329,8 @@ function buildPopupContent(s) {
   fuelKeys.forEach(k => {
     const f = fuels[k];
     if (f) {
-      const cls = f.available ? 'available' : 'unavailable';
-      const label = k === 'dt' ? 'ДТ' : k;
-      const limitHtml = f.limit ? `<div class="fuel-limit">${f.limit}</div>` : '';
       if (f.limit) stationHasLimit = f.limit;
-      fuelsHtml += `
-        <div class="fuel-item ${cls}">
-          <div class="fuel-tag">${label}</div>
-          <div class="fuel-price">${f.price > 0 ? f.price.toFixed(2) + ' ₽' : '—'}</div>
-          ${limitHtml}
-        </div>
-      `;
+      fuelsHtml += renderFuelItemHtml(k, f);
     }
   });
   fuelsHtml += '</div>';
@@ -396,18 +418,10 @@ function renderList() {
     let stationHasLimit = null;
     fuelKeys.forEach(k => {
       const f = (s.fuels || {})[k];
-      const cls = (f && f.available) ? 'available' : 'unavailable';
-      const label = k === 'dt' ? 'ДТ' : k;
-      const priceText = (f && f.price > 0) ? `${f.price.toFixed(2)} ₽` : '—';
-      const limitHtml = (f && f.limit) ? `<div class="fuel-limit">${f.limit}</div>` : '';
-      if (f && f.limit) stationHasLimit = f.limit;
-      fuelsHtml += `
-        <div class="fuel-item ${cls}">
-          <div class="fuel-tag">${label}</div>
-          <div class="fuel-price">${priceText}</div>
-          ${limitHtml}
-        </div>
-      `;
+      if (f) {
+        if (f.limit) stationHasLimit = f.limit;
+        fuelsHtml += renderFuelItemHtml(k, f);
+      }
     });
     fuelsHtml += '</div>';
 
