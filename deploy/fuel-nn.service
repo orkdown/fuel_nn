@@ -1,0 +1,19 @@
+[Unit]
+Description=Fuel Monitoring Service (Nizhny Novgorod) - gdeflex.orkproxy.nx.kg
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/var/www/fuel_nn
+ExecStart=/var/www/fuel_nn/venv/bin/uvicorn backend.app:app --host 127.0.0.1 --port 8080 --workers 2
+Restart=always
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+
+# Security sandbox
+ProtectSystem=full
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target
