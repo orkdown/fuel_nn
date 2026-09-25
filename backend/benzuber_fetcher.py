@@ -84,9 +84,9 @@ def fetch_single_benzuber_station(feature):
             
             # Parse fuel items
             # Example pattern in Benzuber HTML:
-            # <div class="status red" title="Топливо временно недоступно"></div> ...
+            # <div class="item">.*?<div class="status probably" title="возможно есть"></div> ...
             fuel_blocks = re.findall(
-                r'<div class="item">.*?<div class="status ([^"]*)"[^>]*title="([^"]*)"[^>]*></div>\s*<div class="name">\s*([^<]+)(?:<br /><span>([^<]+)</span>)?\s*</div>\s*<div class="price">([^<]+)</div>',
+                r'<div class="item">.*?<div class="status ([^"]*)"[^>]*title="([^"]*)"[^>]*></div>\s*<div class="name">\s*([^<]+)(?:<br /><span>([^<]+)</span>)?\s*</div>\s*<div class="price">([^<]*)</div>',
                 html,
                 re.DOTALL
             )
@@ -111,9 +111,16 @@ def fetch_single_benzuber_station(feature):
                     or "red" in st_cls_low
                     or "остановк" in st_title_low
                     or "недоступн" in st_title_low
-                    or p <= 0
+                    or "нет в наличии" in st_title_low
                 )
-                is_available = not is_disabled
+                is_available = not is_disabled and (
+                    "available" in st_cls_low
+                    or "probably" in st_cls_low
+                    or "green" in st_cls_low
+                    or "yellow" in st_cls_low
+                    or "есть" in st_title_low
+                    or p > 0
+                )
                 if is_available:
                     has_active = True
                 
@@ -122,7 +129,7 @@ def fetch_single_benzuber_station(feature):
                 clean_limit = limit_note.strip() if limit_note else None
                 fuel_info = {
                     "name": fn_clean,
-                    "price": p,
+                    "price": p if p > 0 else 0.0,
                     "available": is_available,
                     "raw_status": status_title.strip() if status_title else ("available" if is_available else "unavailable"),
                     "limit": clean_limit

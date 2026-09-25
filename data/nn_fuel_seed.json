@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T16:40:18.327835",
+  "updated_at": "2026-09-25T17:23:26.610124+03:00",
   "count": 120,
   "stations": [
     {
@@ -20,10 +20,16 @@
         "95": null,
         "100": null,
         "dt": null,
-        "lpg": null
+        "lpg": {
+          "name": "Пропан",
+          "price": 47.9,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:14.659899"
+      "updated_at": "2026-09-25T17:23:23.111307+03:00"
     },
     {
       "id": "benzuber_45165",
@@ -61,10 +67,16 @@
           "raw_status": "топливо есть",
           "limit": null
         },
-        "lpg": null
+        "lpg": {
+          "name": "Пропан",
+          "price": 45.9,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:15.230206"
+      "updated_at": "2026-09-25T17:23:23.700228+03:00"
     },
     {
       "id": "benzuber_45167",
@@ -102,10 +114,16 @@
           "raw_status": "топливо есть",
           "limit": null
         },
-        "lpg": null
+        "lpg": {
+          "name": "Пропан",
+          "price": 45.9,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:15.997636"
+      "updated_at": "2026-09-25T17:23:24.574207+03:00"
     },
     {
       "id": "benzuber_45169",
@@ -136,11 +154,23 @@
           "limit": null
         },
         "100": null,
-        "dt": null,
-        "lpg": null
+        "dt": {
+          "name": "ДТ",
+          "price": 78.95,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": null
+        },
+        "lpg": {
+          "name": "Пропан",
+          "price": 47.9,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:14.682466"
+      "updated_at": "2026-09-25T17:23:23.158167+03:00"
     },
     {
       "id": "benzuber_45160",
@@ -156,14 +186,38 @@
         43.938107
       ],
       "fuels": {
-        "92": null,
-        "95": null,
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
         "100": null,
-        "dt": null,
-        "lpg": null
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": null
+        },
+        "lpg": {
+          "name": "Пропан",
+          "price": 47.9,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:15.203081"
+      "updated_at": "2026-09-25T17:23:24.858346+03:00"
     },
     {
       "id": "benzuber_52871",
@@ -179,14 +233,38 @@
         44.097801
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
         "lpg": null
       },
       "status": "empty",
-      "updated_at": "2026-09-25T16:40:16.434974"
+      "updated_at": "2026-09-25T17:23:24.976324+03:00"
     },
     {
       "id": "benzuber_52872",
@@ -210,18 +288,30 @@
           "limit": null
         },
         "95": {
-          "name": "AI-95",
+          "name": "АИ-95",
           "price": 97.9,
           "available": true,
           "raw_status": "топливо есть",
           "limit": null
         },
         "100": null,
-        "dt": null,
-        "lpg": null
+        "dt": {
+          "name": "ДТ",
+          "price": 84.9,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
+        "lpg": {
+          "name": "Пропан",
+          "price": 43.0,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:16.935674"
+      "updated_at": "2026-09-25T17:23:25.640867+03:00"
     },
     {
       "id": "benzuber_59644",
@@ -237,14 +327,38 @@
         44.054659
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
         "lpg": null
       },
       "status": "empty",
-      "updated_at": "2026-09-25T16:40:18.275078"
+      "updated_at": "2026-09-25T17:23:26.575916+03:00"
     },
     {
       "id": "benzuber_41098",
@@ -268,7 +382,7 @@
           "limit": null
         },
         "95": {
-          "name": "AI-95",
+          "name": "АИ-95",
           "price": 149.0,
           "available": true,
           "raw_status": "топливо есть",
@@ -285,7 +399,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:14.699996"
+      "updated_at": "2026-09-25T17:23:23.129982+03:00"
     },
     {
       "id": "benzuber_41097",
@@ -301,14 +415,32 @@
         43.869579
       ],
       "fuels": {
-        "92": null,
-        "95": null,
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
         "100": null,
-        "dt": null,
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": null
+        },
         "lpg": null
       },
-      "status": "empty",
-      "updated_at": "2026-09-25T16:40:17.237367"
+      "status": "active",
+      "updated_at": "2026-09-25T17:23:25.560823+03:00"
     },
     {
       "id": "benzuber_60265",
@@ -325,14 +457,14 @@
       ],
       "fuels": {
         "92": {
-          "name": "AI-92",
+          "name": "АИ-92",
           "price": 125.0,
           "available": true,
           "raw_status": "топливо есть",
           "limit": null
         },
         "95": {
-          "name": "AI-95",
+          "name": "АИ-95",
           "price": 130.0,
           "available": true,
           "raw_status": "топливо есть",
@@ -343,7 +475,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:17.328929"
+      "updated_at": "2026-09-25T17:23:25.613705+03:00"
     },
     {
       "id": "benzuber_67069",
@@ -359,14 +491,44 @@
         43.797282
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
-        "lpg": null
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "lpg": {
+          "name": "Метан",
+          "price": 31.05,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:16.245672"
+      "updated_at": "2026-09-25T17:23:24.067186+03:00"
     },
     {
       "id": "benzuber_64550",
@@ -382,14 +544,44 @@
         43.875495
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
-        "lpg": null
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "lpg": {
+          "name": "Метан",
+          "price": 31.05,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:17.843507"
+      "updated_at": "2026-09-25T17:23:26.378972+03:00"
     },
     {
       "id": "benzuber_57518",
@@ -405,14 +597,44 @@
         44.094482
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
-        "lpg": null
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "lpg": {
+          "name": "Пропан",
+          "price": 47.9,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:17.800934"
+      "updated_at": "2026-09-25T17:23:26.162299+03:00"
     },
     {
       "id": "benzuber_54410",
@@ -428,14 +650,44 @@
         44.170985
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
-        "lpg": null
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "lpg": {
+          "name": "Метан",
+          "price": 35.7,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:17.903540"
+      "updated_at": "2026-09-25T17:23:26.457752+03:00"
     },
     {
       "id": "benzuber_54413",
@@ -451,14 +703,44 @@
         44.107705
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
-        "lpg": null
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "lpg": {
+          "name": "Метан",
+          "price": 35.7,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:16.792083"
+      "updated_at": "2026-09-25T17:23:25.488231+03:00"
     },
     {
       "id": "benzuber_49890",
@@ -474,14 +756,32 @@
         44.12778
       ],
       "fuels": {
-        "92": null,
-        "95": null,
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": "Лимит 30л"
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": "Лимит 30л"
+        },
         "100": null,
-        "dt": null,
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": null
+        },
         "lpg": null
       },
-      "status": "empty",
-      "updated_at": "2026-09-25T16:40:15.678462"
+      "status": "active",
+      "updated_at": "2026-09-25T17:23:24.195960+03:00"
     },
     {
       "id": "benzuber_60656",
@@ -497,14 +797,32 @@
         44.06755
       ],
       "fuels": {
-        "92": null,
-        "95": null,
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": "Лимит 40л"
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": "Лимит 40л"
+        },
         "100": null,
-        "dt": null,
+        "dt": {
+          "name": "ДТ",
+          "price": 79.95,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 40л"
+        },
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:16.272983"
+      "updated_at": "2026-09-25T17:23:25.083757+03:00"
     },
     {
       "id": "benzuber_51952",
@@ -520,14 +838,44 @@
         43.990887
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
-        "lpg": null
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "lpg": {
+          "name": "Метан",
+          "price": 31.09,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:17.310599"
+      "updated_at": "2026-09-25T17:23:25.955158+03:00"
     },
     {
       "id": "benzuber_76856",
@@ -543,14 +891,44 @@
         43.6315
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
-        "lpg": null
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "lpg": {
+          "name": "Метан",
+          "price": 31.32,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:15.702636"
+      "updated_at": "2026-09-25T17:23:24.137798+03:00"
     },
     {
       "id": "benzuber_51954",
@@ -566,14 +944,44 @@
         43.834362
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
-        "lpg": null
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "lpg": {
+          "name": "Метан",
+          "price": 31.09,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:16.195061"
+      "updated_at": "2026-09-25T17:23:23.639951+03:00"
     },
     {
       "id": "benzuber_50554",
@@ -589,14 +997,32 @@
         43.88066
       ],
       "fuels": {
-        "92": null,
-        "95": null,
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
         "100": null,
-        "dt": null,
+        "dt": {
+          "name": "ДТ",
+          "price": 77.18,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:16.763629"
+      "updated_at": "2026-09-25T17:23:25.140430+03:00"
     },
     {
       "id": "benzuber_59908",
@@ -613,7 +1039,7 @@
       ],
       "fuels": {
         "92": {
-          "name": "AI-92",
+          "name": "АИ-92",
           "price": 65.37,
           "available": true,
           "raw_status": "топливо есть",
@@ -627,11 +1053,17 @@
           "limit": "Лимит 30л"
         },
         "100": null,
-        "dt": null,
+        "dt": {
+          "name": "ДТ",
+          "price": 76.75,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:16.263178"
+      "updated_at": "2026-09-25T17:23:25.075384+03:00"
     },
     {
       "id": "benzuber_50565",
@@ -647,14 +1079,32 @@
         43.93095
       ],
       "fuels": {
-        "92": null,
-        "95": null,
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
         "100": null,
-        "dt": null,
+        "dt": {
+          "name": "ДТ",
+          "price": 77.06,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:15.713828"
+      "updated_at": "2026-09-25T17:23:24.075550+03:00"
     },
     {
       "id": "benzuber_50577",
@@ -671,7 +1121,7 @@
       ],
       "fuels": {
         "92": {
-          "name": "AI-92",
+          "name": "АИ-92",
           "price": 65.5,
           "available": true,
           "raw_status": "топливо есть",
@@ -685,11 +1135,17 @@
           "limit": "Лимит 30л"
         },
         "100": null,
-        "dt": null,
+        "dt": {
+          "name": "ДТ",
+          "price": 76.62,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:16.745219"
+      "updated_at": "2026-09-25T17:23:24.137593+03:00"
     },
     {
       "id": "benzuber_50579",
@@ -705,20 +1161,38 @@
         44.02176
       ],
       "fuels": {
-        "92": null,
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": "Лимит 30л"
+        },
         "95": {
-          "name": "AI-95",
+          "name": "АИ-95",
           "price": 70.04,
           "available": true,
           "raw_status": "топливо есть",
           "limit": "Лимит 30л"
         },
         "100": null,
-        "dt": null,
-        "lpg": null
+        "dt": {
+          "name": "ДТ",
+          "price": 76.68,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
+        "lpg": {
+          "name": "Пропан",
+          "price": 38.24,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:15.209624"
+      "updated_at": "2026-09-25T17:23:23.648634+03:00"
     },
     {
       "id": "benzuber_50582",
@@ -735,25 +1209,31 @@
       ],
       "fuels": {
         "92": {
-          "name": "AI-92",
+          "name": "АИ-92",
           "price": 65.61,
           "available": true,
           "raw_status": "топливо есть",
           "limit": "Лимит 30л"
         },
         "95": {
-          "name": "AI-95",
+          "name": "АИ-95",
           "price": 70.31,
           "available": true,
           "raw_status": "топливо есть",
           "limit": "Лимит 30л"
         },
         "100": null,
-        "dt": null,
+        "dt": {
+          "name": "ДТ",
+          "price": 76.93,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:17.812844"
+      "updated_at": "2026-09-25T17:23:26.224089+03:00"
     },
     {
       "id": "benzuber_50596",
@@ -769,14 +1249,38 @@
         43.68386
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": "Лимит 30л"
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 76.87,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:15.231266"
+      "updated_at": "2026-09-25T17:23:23.685058+03:00"
     },
     {
       "id": "benzuber_50599",
@@ -792,14 +1296,38 @@
         43.97331
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": "Лимит 30л"
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": "Лимит 30л"
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 76.87,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:16.713036"
+      "updated_at": "2026-09-25T17:23:24.095863+03:00"
     },
     {
       "id": "benzuber_50603",
@@ -815,14 +1343,38 @@
         43.86931
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": "Лимит 30л"
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": "Лимит 30л"
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": "Лимит 30л"
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
         "lpg": null
       },
-      "status": "empty",
-      "updated_at": "2026-09-25T16:40:14.636827"
+      "status": "active",
+      "updated_at": "2026-09-25T17:23:23.093806+03:00"
     },
     {
       "id": "benzuber_50978",
@@ -839,7 +1391,7 @@
       ],
       "fuels": {
         "92": {
-          "name": "AI-92",
+          "name": "АИ-92",
           "price": 65.74,
           "available": true,
           "raw_status": "топливо есть",
@@ -853,11 +1405,17 @@
           "limit": "Лимит 30л"
         },
         "100": null,
-        "dt": null,
+        "dt": {
+          "name": "ДТ",
+          "price": 76.87,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:15.714239"
+      "updated_at": "2026-09-25T17:23:24.185818+03:00"
     },
     {
       "id": "benzuber_50631",
@@ -873,14 +1431,32 @@
         43.84714
       ],
       "fuels": {
-        "92": null,
-        "95": null,
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": "Лимит 30л"
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": "Лимит 30л"
+        },
         "100": null,
-        "dt": null,
+        "dt": {
+          "name": "ДТ",
+          "price": 76.93,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:15.730923"
+      "updated_at": "2026-09-25T17:23:24.122412+03:00"
     },
     {
       "id": "benzuber_50654",
@@ -896,14 +1472,32 @@
         44.09045
       ],
       "fuels": {
-        "92": null,
-        "95": null,
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": "Лимит 30л"
+        },
         "100": null,
-        "dt": null,
+        "dt": {
+          "name": "ДТ",
+          "price": 76.82,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:16.762089"
+      "updated_at": "2026-09-25T17:23:25.140603+03:00"
     },
     {
       "id": "benzuber_50663",
@@ -919,14 +1513,32 @@
         43.79435
       ],
       "fuels": {
-        "92": null,
-        "95": null,
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": "Лимит 30л"
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": "Лимит 30л"
+        },
         "100": null,
-        "dt": null,
+        "dt": {
+          "name": "ДТ",
+          "price": 76.75,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:17.282387"
+      "updated_at": "2026-09-25T17:23:25.603467+03:00"
     },
     {
       "id": "benzuber_50664",
@@ -943,7 +1555,7 @@
       ],
       "fuels": {
         "92": {
-          "name": "AI-92",
+          "name": "АИ-92",
           "price": 64.65,
           "available": true,
           "raw_status": "топливо есть",
@@ -957,11 +1569,17 @@
           "limit": "Лимит 30л"
         },
         "100": null,
-        "dt": null,
+        "dt": {
+          "name": "ДТ",
+          "price": 76.75,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:16.762712"
+      "updated_at": "2026-09-25T17:23:25.118165+03:00"
     },
     {
       "id": "benzuber_50671",
@@ -977,14 +1595,32 @@
         43.85795
       ],
       "fuels": {
-        "92": null,
-        "95": null,
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": "Лимит 30л"
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": "Лимит 30л"
+        },
         "100": null,
-        "dt": null,
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
         "lpg": null
       },
       "status": "empty",
-      "updated_at": "2026-09-25T16:40:15.750297"
+      "updated_at": "2026-09-25T17:23:23.618059+03:00"
     },
     {
       "id": "benzuber_50679",
@@ -1000,14 +1636,38 @@
         44.0926
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": "Лимит 30л"
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": "Лимит 30л"
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": "Лимит 30л"
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 76.93,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
         "lpg": null
       },
       "status": "empty",
-      "updated_at": "2026-09-25T16:40:16.766010"
+      "updated_at": "2026-09-25T17:23:23.119375+03:00"
     },
     {
       "id": "benzuber_50680",
@@ -1024,7 +1684,7 @@
       ],
       "fuels": {
         "92": {
-          "name": "AI-92",
+          "name": "АИ-92",
           "price": 64.94,
           "available": true,
           "raw_status": "топливо есть",
@@ -1037,12 +1697,24 @@
           "raw_status": "топливо есть",
           "limit": "Лимит 30л"
         },
-        "100": null,
-        "dt": null,
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": "Лимит 30л"
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 76.82,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:15.277164"
+      "updated_at": "2026-09-25T17:23:23.675806+03:00"
     },
     {
       "id": "benzuber_49901",
@@ -1059,25 +1731,31 @@
       ],
       "fuels": {
         "92": {
-          "name": "AI-92",
+          "name": "АИ-92",
           "price": 65.56,
           "available": true,
           "raw_status": "топливо есть",
           "limit": "Лимит 30л"
         },
         "95": {
-          "name": "AI-95",
+          "name": "АИ-95",
           "price": 69.91,
           "available": true,
           "raw_status": "топливо есть",
           "limit": "Лимит 30л"
         },
         "100": null,
-        "dt": null,
+        "dt": {
+          "name": "ДТ",
+          "price": 77.24,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:17.362635"
+      "updated_at": "2026-09-25T17:23:25.630664+03:00"
     },
     {
       "id": "benzuber_50685",
@@ -1094,7 +1772,7 @@
       ],
       "fuels": {
         "92": {
-          "name": "AI-92",
+          "name": "АИ-92",
           "price": 65.07,
           "available": true,
           "raw_status": "топливо есть",
@@ -1108,11 +1786,17 @@
           "limit": "Лимит 30л"
         },
         "100": null,
-        "dt": null,
+        "dt": {
+          "name": "ДТ",
+          "price": 76.93,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:17.752597"
+      "updated_at": "2026-09-25T17:23:26.057673+03:00"
     },
     {
       "id": "benzuber_50689",
@@ -1129,25 +1813,31 @@
       ],
       "fuels": {
         "92": {
-          "name": "AI-92",
+          "name": "АИ-92",
           "price": 65.07,
-          "available": false,
-          "raw_status": "остановка продаж",
+          "available": true,
+          "raw_status": "топливо есть",
           "limit": "Лимит 30л"
         },
         "95": {
-          "name": "AI-95",
-          "price": 69.79,
-          "available": false,
-          "raw_status": "остановка продаж",
+          "name": "G-Drive 95",
+          "price": 71.79,
+          "available": true,
+          "raw_status": "топливо есть",
           "limit": "Лимит 30л"
         },
         "100": null,
-        "dt": null,
+        "dt": {
+          "name": "ДТ",
+          "price": 76.93,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:17.841047"
+      "updated_at": "2026-09-25T17:23:26.134632+03:00"
     },
     {
       "id": "benzuber_50691",
@@ -1163,14 +1853,32 @@
         43.92157
       ],
       "fuels": {
-        "92": null,
-        "95": null,
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
         "100": null,
-        "dt": null,
+        "dt": {
+          "name": "ДТ",
+          "price": 76.68,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:16.727142"
+      "updated_at": "2026-09-25T17:23:25.131331+03:00"
     },
     {
       "id": "benzuber_50697",
@@ -1186,14 +1894,38 @@
         44.02308
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": "Лимит 30л"
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": "Лимит 30л"
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": "Лимит 30л"
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 77.06,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:15.210651"
+      "updated_at": "2026-09-25T17:23:23.130110+03:00"
     },
     {
       "id": "benzuber_50700",
@@ -1210,25 +1942,43 @@
       ],
       "fuels": {
         "92": {
-          "name": "AI-92",
+          "name": "АИ-92",
           "price": 65.5,
           "available": true,
           "raw_status": "топливо есть",
           "limit": "Лимит 30л"
         },
         "95": {
-          "name": "AI-95",
+          "name": "АИ-95",
           "price": 70.21,
           "available": true,
           "raw_status": "топливо есть",
           "limit": "Лимит 30л"
         },
-        "100": null,
-        "dt": null,
-        "lpg": null
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": "Лимит 30л"
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 77.18,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
+        "lpg": {
+          "name": "Пропан",
+          "price": 47.9,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:14.699797"
+      "updated_at": "2026-09-25T17:23:23.158014+03:00"
     },
     {
       "id": "benzuber_50651",
@@ -1245,19 +1995,37 @@
       ],
       "fuels": {
         "92": {
-          "name": "AI-92",
+          "name": "АИ-92",
           "price": 64.94,
           "available": true,
           "raw_status": "топливо есть",
           "limit": "Лимит 30л"
         },
-        "95": null,
-        "100": null,
-        "dt": null,
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": "Лимит 30л"
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": "Лимит 30л"
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:15.741292"
+      "updated_at": "2026-09-25T17:23:23.607397+03:00"
     },
     {
       "id": "benzuber_60622",
@@ -1274,25 +2042,37 @@
       ],
       "fuels": {
         "92": {
-          "name": "AI-92",
+          "name": "АИ-92",
           "price": 69.95,
           "available": false,
           "raw_status": "остановка продаж",
           "limit": "Лимит 40л"
         },
         "95": {
-          "name": "AI-95",
+          "name": "АИ-95",
           "price": 72.95,
           "available": false,
           "raw_status": "остановка продаж",
           "limit": "Лимит 40л"
         },
         "100": null,
-        "dt": null,
-        "lpg": null
+        "dt": {
+          "name": "ДТ",
+          "price": 79.95,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 40л"
+        },
+        "lpg": {
+          "name": "Пропан",
+          "price": 47.9,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:14.700628"
+      "updated_at": "2026-09-25T17:23:25.066578+03:00"
     },
     {
       "id": "benzuber_60650",
@@ -1309,7 +2089,7 @@
       ],
       "fuels": {
         "92": {
-          "name": "AI-92",
+          "name": "АИ-92",
           "price": 69.95,
           "available": true,
           "raw_status": "топливо есть",
@@ -1323,11 +2103,17 @@
           "limit": "Лимит 40л"
         },
         "100": null,
-        "dt": null,
+        "dt": {
+          "name": "ДТ",
+          "price": 79.95,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 40л"
+        },
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:16.219264"
+      "updated_at": "2026-09-25T17:23:24.591635+03:00"
     },
     {
       "id": "benzuber_60605",
@@ -1344,7 +2130,7 @@
       ],
       "fuels": {
         "92": {
-          "name": "AI-92",
+          "name": "АИ-92",
           "price": 69.95,
           "available": true,
           "raw_status": "возможно есть",
@@ -1358,11 +2144,23 @@
           "limit": "Лимит 40л"
         },
         "100": null,
-        "dt": null,
-        "lpg": null
+        "dt": {
+          "name": "ДТ",
+          "price": 79.95,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 40л"
+        },
+        "lpg": {
+          "name": "Пропан",
+          "price": 47.9,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:17.782379"
+      "updated_at": "2026-09-25T17:23:26.066660+03:00"
     },
     {
       "id": "benzuber_60648",
@@ -1379,7 +2177,7 @@
       ],
       "fuels": {
         "92": {
-          "name": "AI-92",
+          "name": "АИ-92",
           "price": 69.95,
           "available": true,
           "raw_status": "топливо есть",
@@ -1393,11 +2191,23 @@
           "limit": "Лимит 40л"
         },
         "100": null,
-        "dt": null,
-        "lpg": null
+        "dt": {
+          "name": "ДТ",
+          "price": 79.95,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 40л"
+        },
+        "lpg": {
+          "name": "Пропан",
+          "price": 47.9,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:17.318937"
+      "updated_at": "2026-09-25T17:23:25.621664+03:00"
     },
     {
       "id": "benzuber_60594",
@@ -1414,7 +2224,7 @@
       ],
       "fuels": {
         "92": {
-          "name": "AI-92",
+          "name": "АИ-92",
           "price": 69.95,
           "available": true,
           "raw_status": "возможно есть",
@@ -1434,11 +2244,23 @@
           "raw_status": "возможно есть",
           "limit": "Лимит 40л"
         },
-        "dt": null,
-        "lpg": null
+        "dt": {
+          "name": "ДТ",
+          "price": 79.95,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 40л"
+        },
+        "lpg": {
+          "name": "Пропан",
+          "price": 47.9,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:17.338229"
+      "updated_at": "2026-09-25T17:23:25.847559+03:00"
     },
     {
       "id": "benzuber_60616",
@@ -1455,7 +2277,7 @@
       ],
       "fuels": {
         "92": {
-          "name": "AI-92",
+          "name": "АИ-92",
           "price": 69.95,
           "available": false,
           "raw_status": "остановка продаж",
@@ -1469,11 +2291,23 @@
           "limit": "Лимит 40л"
         },
         "100": null,
-        "dt": null,
-        "lpg": null
+        "dt": {
+          "name": "ДТ",
+          "price": 79.95,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 40л"
+        },
+        "lpg": {
+          "name": "Пропан",
+          "price": 47.9,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:17.437386"
+      "updated_at": "2026-09-25T17:23:26.066796+03:00"
     },
     {
       "id": "benzuber_59968",
@@ -1489,14 +2323,44 @@
         44.224181
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
-        "lpg": null
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
+        "lpg": {
+          "name": "Пропан",
+          "price": 47.9,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:18.302957"
+      "updated_at": "2026-09-25T17:23:26.527548+03:00"
     },
     {
       "id": "benzuber_59096",
@@ -1512,14 +2376,44 @@
         44.155079
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
-        "lpg": null
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "lpg": {
+          "name": "Пропан",
+          "price": 45.9,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:17.273579"
+      "updated_at": "2026-09-25T17:23:25.578185+03:00"
     },
     {
       "id": "benzuber_59097",
@@ -1535,14 +2429,38 @@
         43.802959
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
         "lpg": null
       },
       "status": "empty",
-      "updated_at": "2026-09-25T16:40:18.282360"
+      "updated_at": "2026-09-25T17:23:26.602379+03:00"
     },
     {
       "id": "benzuber_44454",
@@ -1558,14 +2476,32 @@
         44.081264
       ],
       "fuels": {
-        "92": null,
-        "95": null,
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
         "100": null,
-        "dt": null,
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": null
+        },
         "lpg": null
       },
-      "status": "empty",
-      "updated_at": "2026-09-25T16:40:15.623899"
+      "status": "active",
+      "updated_at": "2026-09-25T17:23:24.034193+03:00"
     },
     {
       "id": "benzuber_56682",
@@ -1581,14 +2517,38 @@
         44.005833
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": null
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": null
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
         "lpg": null
       },
-      "status": "empty",
-      "updated_at": "2026-09-25T16:40:18.277748"
+      "status": "active",
+      "updated_at": "2026-09-25T17:23:26.527699+03:00"
     },
     {
       "id": "benzuber_49493",
@@ -1605,31 +2565,37 @@
       ],
       "fuels": {
         "92": {
-          "name": "AI-92",
+          "name": "АИ-92",
           "price": 129.95,
           "available": true,
           "raw_status": "топливо есть",
           "limit": null
         },
         "95": {
-          "name": "AI-95",
+          "name": "АИ-95",
           "price": 149.95,
           "available": true,
           "raw_status": "топливо есть",
           "limit": null
         },
         "100": {
-          "name": "AI-100",
+          "name": "АИ-100",
           "price": 93.95,
           "available": true,
           "raw_status": "возможно есть",
           "limit": null
         },
-        "dt": null,
+        "dt": {
+          "name": "ДТ Премиальное",
+          "price": 79.95,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:16.253311"
+      "updated_at": "2026-09-25T17:23:23.175254+03:00"
     },
     {
       "id": "lukoil_134070",
@@ -1652,7 +2618,7 @@
         "lpg": null
       },
       "status": "closed",
-      "updated_at": "2026-09-25T16:40:10.912076"
+      "updated_at": "2026-09-25T17:23:20.570931+03:00"
     },
     {
       "id": "lukoil_134016",
@@ -1675,7 +2641,7 @@
         "lpg": null
       },
       "status": "closed",
-      "updated_at": "2026-09-25T16:40:09.827473"
+      "updated_at": "2026-09-25T17:23:19.474782+03:00"
     },
     {
       "id": "lukoil_134034",
@@ -1713,7 +2679,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:09.809770"
+      "updated_at": "2026-09-25T17:23:19.474876+03:00"
     },
     {
       "id": "lukoil_135044",
@@ -1736,7 +2702,7 @@
         "lpg": null
       },
       "status": "closed",
-      "updated_at": "2026-09-25T16:40:11.496267"
+      "updated_at": "2026-09-25T17:23:21.098115+03:00"
     },
     {
       "id": "lukoil_134035",
@@ -1752,8 +2718,18 @@
         43.942016
       ],
       "fuels": {
-        "92": null,
-        "95": null,
+        "92": {
+          "name": "АИ 92 ЭКТО",
+          "price": 64.65,
+          "available": true,
+          "raw_status": "available"
+        },
+        "95": {
+          "name": "АИ 95 ЭКТО",
+          "price": 70.58,
+          "available": true,
+          "raw_status": "available"
+        },
         "100": null,
         "dt": {
           "name": "ДИЗЕЛЬ ЭКТО",
@@ -1764,7 +2740,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:09.826262"
+      "updated_at": "2026-09-25T17:23:19.500666+03:00"
     },
     {
       "id": "lukoil_135049",
@@ -1792,7 +2768,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:11.537247"
+      "updated_at": "2026-09-25T17:23:21.251833+03:00"
     },
     {
       "id": "lukoil_134036",
@@ -1820,7 +2796,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:09.809881"
+      "updated_at": "2026-09-25T17:23:19.492715+03:00"
     },
     {
       "id": "lukoil_134037",
@@ -1848,7 +2824,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:09.861626"
+      "updated_at": "2026-09-25T17:23:19.466028+03:00"
     },
     {
       "id": "lukoil_134039",
@@ -1871,7 +2847,7 @@
         "lpg": null
       },
       "status": "closed",
-      "updated_at": "2026-09-25T16:40:09.835101"
+      "updated_at": "2026-09-25T17:23:19.492640+03:00"
     },
     {
       "id": "lukoil_134040",
@@ -1889,12 +2865,7 @@
       "fuels": {
         "92": null,
         "95": null,
-        "100": {
-          "name": "АИ 100 ЭКТО",
-          "price": 98.49,
-          "available": true,
-          "raw_status": "available"
-        },
+        "100": null,
         "dt": {
           "name": "ДИЗЕЛЬ ЭКТО",
           "price": 78.86,
@@ -1904,7 +2875,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:10.151292"
+      "updated_at": "2026-09-25T17:23:19.786307+03:00"
     },
     {
       "id": "lukoil_134041",
@@ -1932,7 +2903,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:10.395798"
+      "updated_at": "2026-09-25T17:23:19.795376+03:00"
     },
     {
       "id": "lukoil_135070",
@@ -1960,7 +2931,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:11.688492"
+      "updated_at": "2026-09-25T17:23:21.268179+03:00"
     },
     {
       "id": "lukoil_134042",
@@ -1988,7 +2959,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:10.193266"
+      "updated_at": "2026-09-25T17:23:19.824118+03:00"
     },
     {
       "id": "lukoil_134043",
@@ -2016,7 +2987,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:10.209799"
+      "updated_at": "2026-09-25T17:23:19.815709+03:00"
     },
     {
       "id": "lukoil_135046",
@@ -2044,7 +3015,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:11.536213"
+      "updated_at": "2026-09-25T17:23:21.147441+03:00"
     },
     {
       "id": "lukoil_135047",
@@ -2072,7 +3043,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:11.525396"
+      "updated_at": "2026-09-25T17:23:21.211335+03:00"
     },
     {
       "id": "lukoil_134044",
@@ -2110,7 +3081,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:10.176335"
+      "updated_at": "2026-09-25T17:23:19.842231+03:00"
     },
     {
       "id": "lukoil_134045",
@@ -2133,7 +3104,7 @@
         "lpg": null
       },
       "status": "closed",
-      "updated_at": "2026-09-25T16:40:10.176412"
+      "updated_at": "2026-09-25T17:23:19.832459+03:00"
     },
     {
       "id": "lukoil_135054",
@@ -2161,7 +3132,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:11.664533"
+      "updated_at": "2026-09-25T17:23:21.240833+03:00"
     },
     {
       "id": "lukoil_134047",
@@ -2194,7 +3165,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:10.193190"
+      "updated_at": "2026-09-25T17:23:19.842441+03:00"
     },
     {
       "id": "lukoil_134060",
@@ -2227,7 +3198,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:10.831742"
+      "updated_at": "2026-09-25T17:23:20.505213+03:00"
     },
     {
       "id": "lukoil_134048",
@@ -2255,7 +3226,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:10.480972"
+      "updated_at": "2026-09-25T17:23:20.144017+03:00"
     },
     {
       "id": "lukoil_134049",
@@ -2283,7 +3254,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:10.523831"
+      "updated_at": "2026-09-25T17:23:20.125657+03:00"
     },
     {
       "id": "lukoil_134050",
@@ -2306,7 +3277,7 @@
         "lpg": null
       },
       "status": "closed",
-      "updated_at": "2026-09-25T16:40:10.514686"
+      "updated_at": "2026-09-25T17:23:20.134963+03:00"
     },
     {
       "id": "lukoil_134057",
@@ -2329,7 +3300,7 @@
         "lpg": null
       },
       "status": "closed",
-      "updated_at": "2026-09-25T16:40:10.554724"
+      "updated_at": "2026-09-25T17:23:20.166909+03:00"
     },
     {
       "id": "lukoil_134052",
@@ -2352,7 +3323,7 @@
         "lpg": null
       },
       "status": "closed",
-      "updated_at": "2026-09-25T16:40:10.523911"
+      "updated_at": "2026-09-25T17:23:20.185497+03:00"
     },
     {
       "id": "lukoil_135038",
@@ -2369,7 +3340,12 @@
       ],
       "fuels": {
         "92": null,
-        "95": null,
+        "95": {
+          "name": "АИ 95 ЕВРО",
+          "price": 69.93,
+          "available": true,
+          "raw_status": "available"
+        },
         "100": null,
         "dt": {
           "name": "ДИЗЕЛЬ ЭКТО",
@@ -2380,7 +3356,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:11.365426"
+      "updated_at": "2026-09-25T17:23:20.957490+03:00"
     },
     {
       "id": "lukoil_135037",
@@ -2408,7 +3384,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:11.346691"
+      "updated_at": "2026-09-25T17:23:20.907670+03:00"
     },
     {
       "id": "lukoil_134055",
@@ -2436,7 +3412,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:10.540427"
+      "updated_at": "2026-09-25T17:23:20.176574+03:00"
     },
     {
       "id": "lukoil_135011",
@@ -2459,7 +3435,7 @@
         "lpg": null
       },
       "status": "closed",
-      "updated_at": "2026-09-25T16:40:11.227859"
+      "updated_at": "2026-09-25T17:23:20.898509+03:00"
     },
     {
       "id": "lukoil_135010",
@@ -2487,7 +3463,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:11.188001"
+      "updated_at": "2026-09-25T17:23:20.858418+03:00"
     },
     {
       "id": "lukoil_134071",
@@ -2520,7 +3496,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:11.027381"
+      "updated_at": "2026-09-25T17:23:20.582580+03:00"
     },
     {
       "id": "lukoil_135072",
@@ -2553,7 +3529,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:11.831573"
+      "updated_at": "2026-09-25T17:23:21.419110+03:00"
     },
     {
       "id": "lukoil_134072",
@@ -2581,7 +3557,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:11.038403"
+      "updated_at": "2026-09-25T17:23:20.620496+03:00"
     },
     {
       "id": "lukoil_134073",
@@ -2609,7 +3585,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:11.139644"
+      "updated_at": "2026-09-25T17:23:20.757739+03:00"
     },
     {
       "id": "lukoil_134015",
@@ -2632,7 +3608,7 @@
         "lpg": null
       },
       "status": "error",
-      "updated_at": "2026-09-25T16:40:10.697284"
+      "updated_at": "2026-09-25T17:23:20.299629+03:00"
     },
     {
       "id": "lukoil_134017",
@@ -2660,7 +3636,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:09.827398"
+      "updated_at": "2026-09-25T17:23:19.456597+03:00"
     },
     {
       "id": "lukoil_134063",
@@ -2683,7 +3659,7 @@
         "lpg": null
       },
       "status": "error",
-      "updated_at": "2026-09-25T16:40:11.777581"
+      "updated_at": "2026-09-25T17:23:21.365249+03:00"
     },
     {
       "id": "lukoil_134199",
@@ -2702,16 +3678,11 @@
         "92": null,
         "95": null,
         "100": null,
-        "dt": {
-          "name": "ДИЗЕЛЬ ЭКТО",
-          "price": 78.86,
-          "available": true,
-          "raw_status": "available"
-        },
+        "dt": null,
         "lpg": null
       },
-      "status": "active",
-      "updated_at": "2026-09-25T16:40:11.196915"
+      "status": "closed",
+      "updated_at": "2026-09-25T17:23:20.806456+03:00"
     },
     {
       "id": "lukoil_134058",
@@ -2739,7 +3710,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:10.720127"
+      "updated_at": "2026-09-25T17:23:20.185583+03:00"
     },
     {
       "id": "lukoil_134062",
@@ -2762,7 +3733,7 @@
         "lpg": null
       },
       "status": "error",
-      "updated_at": "2026-09-25T16:40:11.667360"
+      "updated_at": "2026-09-25T17:23:21.331062+03:00"
     },
     {
       "id": "lukoil_134059",
@@ -2790,7 +3761,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:10.808725"
+      "updated_at": "2026-09-25T17:23:20.446202+03:00"
     },
     {
       "id": "lukoil_134061",
@@ -2808,12 +3779,7 @@
       "fuels": {
         "92": null,
         "95": null,
-        "100": {
-          "name": "АИ 100 ЭКТО",
-          "price": 98.49,
-          "available": true,
-          "raw_status": "available"
-        },
+        "100": null,
         "dt": {
           "name": "ДИЗЕЛЬ ЭКТО",
           "price": 78.86,
@@ -2823,7 +3789,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:10.849841"
+      "updated_at": "2026-09-25T17:23:20.476383+03:00"
     },
     {
       "id": "lukoil_135801",
@@ -2861,7 +3827,7 @@
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:11.855730"
+      "updated_at": "2026-09-25T17:23:21.464773+03:00"
     },
     {
       "id": "benzuber_53226",
@@ -2877,14 +3843,44 @@
         43.888165
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
-        "lpg": null
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "lpg": {
+          "name": "Пропан",
+          "price": 45.9,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:16.202398"
+      "updated_at": "2026-09-25T17:23:24.681730+03:00"
     },
     {
       "id": "benzuber_53243",
@@ -2900,14 +3896,38 @@
         43.792774
       ],
       "fuels": {
-        "92": null,
-        "95": null,
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
         "100": null,
-        "dt": null,
-        "lpg": null
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": null
+        },
+        "lpg": {
+          "name": "Пропан",
+          "price": 45.9,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:17.852001"
+      "updated_at": "2026-09-25T17:23:24.591494+03:00"
     },
     {
       "id": "benzuber_53227",
@@ -2923,14 +3943,44 @@
         43.996918
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
-        "lpg": null
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "lpg": {
+          "name": "Пропан",
+          "price": 45.9,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:16.183788"
+      "updated_at": "2026-09-25T17:23:24.166322+03:00"
     },
     {
       "id": "benzuber_53242",
@@ -2946,14 +3996,44 @@
         44.108974
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
-        "lpg": null
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": null
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": null
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": null
+        },
+        "lpg": {
+          "name": "Пропан",
+          "price": 45.9,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:14.672040"
+      "updated_at": "2026-09-25T17:23:25.345477+03:00"
     },
     {
       "id": "benzuber_53222",
@@ -2969,14 +4049,44 @@
         43.939232
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
-        "lpg": null
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "lpg": {
+          "name": "Пропан",
+          "price": 45.9,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:18.308078"
+      "updated_at": "2026-09-25T17:23:24.661825+03:00"
     },
     {
       "id": "benzuber_53223",
@@ -2992,14 +4102,44 @@
         43.921238
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
-        "lpg": null
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "lpg": {
+          "name": "Пропан",
+          "price": 45.9,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:14.682321"
+      "updated_at": "2026-09-25T17:23:24.628346+03:00"
     },
     {
       "id": "benzuber_51804",
@@ -3015,14 +4155,44 @@
         44.078938
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
-        "lpg": null
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "lpg": {
+          "name": "Пропан",
+          "price": 47.9,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:17.815085"
+      "updated_at": "2026-09-25T17:23:26.082860+03:00"
     },
     {
       "id": "benzuber_51812",
@@ -3038,14 +4208,44 @@
         43.888309
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
-        "lpg": null
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "lpg": {
+          "name": "Пропан",
+          "price": 47.9,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:17.812711"
+      "updated_at": "2026-09-25T17:23:26.152478+03:00"
     },
     {
       "id": "benzuber_51805",
@@ -3061,14 +4261,44 @@
         43.866234
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
-        "lpg": null
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "lpg": {
+          "name": "Пропан",
+          "price": 47.9,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:18.320835"
+      "updated_at": "2026-09-25T17:23:26.546973+03:00"
     },
     {
       "id": "benzuber_51820",
@@ -3084,14 +4314,44 @@
         43.905903
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
-        "lpg": null
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "lpg": {
+          "name": "Пропан",
+          "price": 47.9,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:15.193609"
+      "updated_at": "2026-09-25T17:23:24.552390+03:00"
     },
     {
       "id": "benzuber_51806",
@@ -3107,14 +4367,38 @@
         43.918682
       ],
       "fuels": {
-        "92": null,
-        "95": null,
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": null
+        },
         "100": null,
-        "dt": null,
-        "lpg": null
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": null
+        },
+        "lpg": {
+          "name": "Пропан",
+          "price": 47.9,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:15.441217"
+      "updated_at": "2026-09-25T17:23:24.543014+03:00"
     },
     {
       "id": "benzuber_51828",
@@ -3130,14 +4414,44 @@
         43.613689
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
-        "lpg": null
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "lpg": {
+          "name": "Пропан",
+          "price": 47.9,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:16.726493"
+      "updated_at": "2026-09-25T17:23:25.094167+03:00"
     },
     {
       "id": "benzuber_51810",
@@ -3154,25 +4468,37 @@
       ],
       "fuels": {
         "92": {
-          "name": "AI-92",
+          "name": "АИ-92",
           "price": 150.0,
           "available": false,
           "raw_status": "остановка продаж",
           "limit": null
         },
         "95": {
-          "name": "AI-95",
+          "name": "АИ-95",
           "price": 115.0,
           "available": false,
           "raw_status": "остановка продаж",
           "limit": null
         },
-        "100": null,
-        "dt": null,
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 100.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
         "lpg": null
       },
       "status": "empty",
-      "updated_at": "2026-09-25T16:40:16.229023"
+      "updated_at": "2026-09-25T17:23:24.651933+03:00"
     },
     {
       "id": "benzuber_51807",
@@ -3188,14 +4514,44 @@
         44.157379
       ],
       "fuels": {
-        "92": null,
-        "95": null,
-        "100": null,
-        "dt": null,
-        "lpg": null
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "lpg": {
+          "name": "Пропан",
+          "price": 45.9,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:18.310442"
+      "updated_at": "2026-09-25T17:23:26.559263+03:00"
     },
     {
       "id": "benzuber_44125",
@@ -3212,20 +4568,26 @@
       ],
       "fuels": {
         "92": {
-          "name": "AI-92",
+          "name": "АИ-92",
           "price": 68.0,
           "available": false,
           "raw_status": "остановка продаж",
           "limit": null
         },
         "95": {
-          "name": "AI-95",
+          "name": "АИ-95",
           "price": 72.0,
           "available": false,
           "raw_status": "остановка продаж",
           "limit": null
         },
-        "100": null,
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
         "dt": {
           "name": "ДТф",
           "price": 78.5,
@@ -3233,10 +4595,16 @@
           "raw_status": "остановка продаж",
           "limit": null
         },
-        "lpg": null
+        "lpg": {
+          "name": "Пропан",
+          "price": 48.0,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:15.239159"
+      "updated_at": "2026-09-25T17:23:23.102600+03:00"
     },
     {
       "id": "benzuber_44123",
@@ -3253,20 +4621,26 @@
       ],
       "fuels": {
         "92": {
-          "name": "AI-92",
+          "name": "АИ-92",
           "price": 68.0,
           "available": false,
           "raw_status": "остановка продаж",
           "limit": null
         },
         "95": {
-          "name": "AI-95",
+          "name": "АИ-95",
           "price": 72.0,
           "available": false,
           "raw_status": "остановка продаж",
           "limit": null
         },
-        "100": null,
+        "100": {
+          "name": "АИ-98",
+          "price": 0.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
         "dt": {
           "name": "ДТф",
           "price": 82.0,
@@ -3274,10 +4648,16 @@
           "raw_status": "остановка продаж",
           "limit": null
         },
-        "lpg": null
+        "lpg": {
+          "name": "Пропан",
+          "price": 47.0,
+          "available": true,
+          "raw_status": "нет данных",
+          "limit": null
+        }
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:15.668273"
+      "updated_at": "2026-09-25T17:23:23.147891+03:00"
     },
     {
       "id": "benzuber_47440",
@@ -3293,26 +4673,38 @@
         43.96553
       ],
       "fuels": {
-        "92": null,
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": "Лимит 40л"
+        },
         "95": {
-          "name": "AI-95",
+          "name": "АИ-95",
           "price": 69.39,
           "available": true,
           "raw_status": "топливо есть",
           "limit": "Лимит 40л"
         },
         "100": {
-          "name": "AI-98",
+          "name": "АИ-98",
           "price": 99.99,
           "available": true,
           "raw_status": "топливо есть",
           "limit": "Лимит 40л"
         },
-        "dt": null,
+        "dt": {
+          "name": "ДТ",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 200л"
+        },
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:14.727444"
+      "updated_at": "2026-09-25T17:23:23.576005+03:00"
     },
     {
       "id": "benzuber_48166",
@@ -3328,20 +4720,38 @@
         44.111997
       ],
       "fuels": {
-        "92": null,
-        "95": null,
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": "Лимит 40л"
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 40л"
+        },
         "100": {
-          "name": "AI-98",
+          "name": "АИ-98",
           "price": 99.99,
           "available": true,
           "raw_status": "топливо есть",
           "limit": "Лимит 40л"
         },
-        "dt": null,
+        "dt": {
+          "name": "ДТ",
+          "price": 76.29,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 200л"
+        },
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:14.717514"
+      "updated_at": "2026-09-25T17:23:23.584527+03:00"
     },
     {
       "id": "benzuber_48929",
@@ -3357,14 +4767,32 @@
         43.824821
       ],
       "fuels": {
-        "92": null,
-        "95": null,
+        "92": {
+          "name": "АИ-92",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 40л"
+        },
+        "95": {
+          "name": "АИ-95",
+          "price": 0.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": "Лимит 40л"
+        },
         "100": null,
-        "dt": null,
+        "dt": {
+          "name": "ДТ",
+          "price": 76.49,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 200л"
+        },
         "lpg": null
       },
       "status": "active",
-      "updated_at": "2026-09-25T16:40:15.133925"
+      "updated_at": "2026-09-25T17:23:23.593221+03:00"
     }
   ]
 }
