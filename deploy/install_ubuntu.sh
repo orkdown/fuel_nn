@@ -57,9 +57,11 @@ python3 -m venv venv
 venv/bin/pip install --upgrade pip
 venv/bin/pip install -r requirements.txt
 
-# Первичная инициализация кэша
-echo -e "Проверка и предварительная загрузка данных АЗС..."
-venv/bin/python -c "from backend.data_manager import manager; print('Инициализация БД АЗС...'); manager.update_all()" || true
+# Первичная проверка базы данных АЗС (120 станций из seed)
+echo -e "Проверка базы данных АЗС..."
+if [ -f "${APP_DIR}/data/nn_fuel_seed.json" ]; then
+  cp -n "${APP_DIR}/data/nn_fuel_seed.json" "${APP_DIR}/data/nn_fuel_cache.json" 2>/dev/null || true
+fi
 
 # 6. Установка и запуск systemd-сервиса
 echo -e "\n${YELLOW}[5/7] Настройка systemd-сервиса ${SERVICE_NAME}...${NC}"

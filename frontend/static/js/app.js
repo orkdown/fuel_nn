@@ -95,38 +95,70 @@ function populateBrandSelect(stations) {
   }
 }
 
+// Helper to format ISO time in Moscow timezone (UTC+3)
+function formatMskTime(isoString) {
+  if (!isoString) return 'недавно';
+  try {
+    const d = new Date(isoString);
+    if (isNaN(d.getTime())) return 'недавно';
+    return d.toLocaleTimeString('ru-RU', {
+      hour: '2-digit',
+      minute: '2-digit',
+      timeZone: 'Europe/Moscow'
+    });
+  } catch (e) {
+    return 'недавно';
+  }
+}
+
 // Fetch stations from backend API
-async function loadStations() {
+async function loadStations(silent = false) {
   const dot = document.getElementById('update-status-dot');
   const txt = document.getElementById('last-updated-text');
   
-  dot.classList.add('updating');
-  txt.textContent = 'Обновление данных...';
+  if (!silent) {
+    dot.classList.add('updating');
+    txt.textContent = 'Обновление данных...';
+  }
 
   try {
     const res = await fetch('/api/stations');
     const data = await res.json();
     
     allStations = data.stations || [];
-    const updatedTime = data.updated_at ? new Date(data.updated_at).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : 'недавно';
+    const updatedTime = formatMskTime(data.updated_at);
     
-    txt.textContent = `Обновлено в ${updatedTime} (${allStations.length} АЗС)`;
-    dot.classList.remove('updating');
+    if (data.is_updating) {
+      dot.classList.add('updating');
+      txt.textContent = `Обновление данных АЗС... (было в ${updatedTime})`;
+    } else {
+      dot.classList.remove('updating');
+      txt.textContent = `Обновлено в ${updatedTime} (${allStations.length} АЗС)`;
+    }
     
     populateBrandSelect(allStations);
     applyFilters();
+    return data;
   } catch (err) {
     console.error('Failed to load stations:', err);
     txt.textContent = 'Ошибка загрузки данных';
     dot.classList.remove('updating');
+    return null;
   }
 }
 
-// Trigger force refresh
+// Trigger force refresh with real-time polling
+let refreshPollInterval = null;
+
 async function forceRefresh() {
   const btn = document.getElementById('btn-refresh');
   const dot = document.getElementById('update-status-dot');
   const txt = document.getElementById('last-updated-text');
+
+  if (refreshPollInterval) {
+    clearInterval(refreshPollInterval);
+    refreshPollInterval = null;
+  }
 
   btn.disabled = true;
   dot.classList.add('updating');
@@ -136,18 +168,40 @@ async function forceRefresh() {
     const res = await fetch('/api/refresh', { method: 'POST' });
     const data = await res.json();
     
-    if (res.ok) {
-      setTimeout(loadStations, 3000);
-    } else {
-      alert(data.message || 'Ошибка обновления');
+    if (!res.ok) {
+      txt.textContent = data.message || 'Попробуйте позже';
       dot.classList.remove('updating');
-      txt.textContent = 'Лимит обновления: попробуйте позже';
+      btn.disabled = false;
+      return;
     }
+
+    txt.textContent = 'Опрос телеметрии и цен АЗС...';
+    
+    // Poll every 1.5 seconds until backend finishes updating
+    let attempts = 0;
+    const maxAttempts = 20; // 30 seconds max
+    
+    refreshPollInterval = setInterval(async () => {
+      attempts++;
+      const pollData = await loadStations(true);
+      
+      if (!pollData || !pollData.is_updating || attempts >= maxAttempts) {
+        clearInterval(refreshPollInterval);
+        refreshPollInterval = null;
+        btn.disabled = false;
+        dot.classList.remove('updating');
+        if (pollData) {
+          const updatedTime = formatMskTime(pollData.updated_at);
+          txt.textContent = `Обновлено в ${updatedTime} (${allStations.length} АЗС)`;
+        }
+      }
+    }, 1500);
+
   } catch (err) {
-    alert('Не удалось связаться с сервером');
+    console.error('Refresh failed:', err);
+    txt.textContent = 'Ошибка связи с сервером';
     dot.classList.remove('updating');
-  } finally {
-    setTimeout(() => { btn.disabled = false; }, 5000);
+    btn.disabled = false;
   }
 }
 

@@ -25,3 +25,13 @@ SERVER_PORT = 8080
 
 # Production domain
 DOMAIN = "gdeflex.orkproxy.nx.kg"
+
+# Timezone: Moscow (UTC+3) for Nizhny Novgorod
+from datetime import datetime, timezone, timedelta
+MSK_TZ = timezone(timedelta(hours=3), name="Europe/Moscow")
+
+def get_msk_now() -> datetime:
+    return datetime.now(MSK_TZ)
+
+def get_msk_iso() -> str:
+    return get_msk_now().isoformat()

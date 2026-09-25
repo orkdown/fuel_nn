@@ -3,17 +3,23 @@ import ssl
 import json
 import re
 import time
+import gzip
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor
 
-from backend.config import NN_LAT_MIN, NN_LAT_MAX, NN_LON_MIN, NN_LON_MAX
+from backend.config import NN_LAT_MIN, NN_LAT_MAX, NN_LON_MIN, NN_LON_MAX, get_msk_iso
 
 URL_BENZUBER_MAP = "https://app.benzuber.ru/map?zoom=14&price_mode=1"
 URL_BENZUBER_STATION = "https://app.benzuber.ru/map?station_id={sid}"
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-    "X-Requested-With": "XMLHttpRequest"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8,application/json",
+    "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "Accept-Encoding": "gzip, deflate",
+    "X-Requested-With": "XMLHttpRequest",
+    "Referer": "https://app.benzuber.ru/",
+    "Connection": "keep-alive"
 }
 
 def get_ssl_context():
@@ -29,7 +35,16 @@ def parse_price(val_str):
     except Exception:
         return 0.0
 
+def decompress_if_needed(raw_bytes):
+    if len(raw_bytes) >= 2 and raw_bytes[:2] == b'\x1f\x8b':
+        try:
+            return gzip.decompress(raw_bytes)
+        except Exception:
+            pass
+    return raw_bytes
+
 def decode_benzuber_html(raw_bytes):
+    raw_bytes = decompress_if_needed(raw_bytes)
     try:
         s = raw_bytes.decode("windows-1251")
         # Fix double-encoded UTF-8 inside windows-1251
@@ -161,7 +176,7 @@ def fetch_single_benzuber_station(feature):
                 "coords": [lat, lon],
                 "fuels": fuels_dict,
                 "status": "active" if has_active else "empty",
-                "updated_at": datetime.now().isoformat()
+                "updated_at": get_msk_iso()
             }
         except Exception:
             if attempt == 0:
@@ -179,10 +194,11 @@ def fetch_benzuber_stations_nn():
     req = urllib.request.Request(URL_BENZUBER_MAP, headers=HEADERS)
     try:
         with urllib.request.urlopen(req, timeout=15, context=ctx) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
+            raw = decompress_if_needed(resp.read())
+            data = json.loads(raw.decode("utf-8"))
             features = data.get("features", [])
     except Exception as e:
-        print(f"[!] Benzuber API: Failed to fetch map features: {e}")
+        print(f"[!] Benzuber API: Failed to fetch map features ({type(e).__name__}): {e}")
         return []
         
     nn_targets = []

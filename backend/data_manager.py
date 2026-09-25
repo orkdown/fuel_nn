@@ -5,9 +5,11 @@ import threading
 from datetime import datetime
 from pathlib import Path
 
-from backend.config import CACHE_FILE, DATA_DIR, REFRESH_INTERVAL_SECONDS
+from backend.config import CACHE_FILE, DATA_DIR, REFRESH_INTERVAL_SECONDS, get_msk_iso
 from backend.lukoil_fetcher import fetch_lukoil_stations_nn
 from backend.benzuber_fetcher import fetch_benzuber_stations_nn
+
+SEED_FILE = DATA_DIR / "nn_fuel_seed.json"
 
 class FuelDataManager:
     def __init__(self):
@@ -32,18 +34,33 @@ class FuelDataManager:
             print("[*] 12-hour background updater service started.")
         
     def _load_from_disk(self):
+        loaded = False
         if CACHE_FILE.exists():
             try:
-                if CACHE_FILE.stat().st_size == 0:
-                    CACHE_FILE.unlink(missing_ok=True)
-                    return
-                with open(CACHE_FILE, "r", encoding="utf-8") as f:
+                if CACHE_FILE.stat().st_size > 0:
+                    with open(CACHE_FILE, "r", encoding="utf-8") as f:
+                        data = json.load(f)
+                        st = data.get("stations", [])
+                        if len(st) >= 50:
+                            self._stations = st
+                            self._last_updated = data.get("updated_at")
+                            loaded = True
+                            print(f"[*] Loaded {len(self._stations)} stations from primary disk cache (Updated: {self._last_updated})")
+            except Exception as e:
+                print(f"[!] Failed to read primary disk cache: {e}")
+                
+        # If cache was missing or incomplete (< 50 stations), fallback to seed file
+        if not loaded and SEED_FILE.exists():
+            try:
+                with open(SEED_FILE, "r", encoding="utf-8") as f:
                     data = json.load(f)
                     self._stations = data.get("stations", [])
-                    self._last_updated = data.get("updated_at")
-                    print(f"[*] Loaded {len(self._stations)} stations from disk cache (Updated: {self._last_updated})")
+                    self._last_updated = data.get("updated_at") or get_msk_iso()
+                    print(f"[*] Restored {len(self._stations)} stations from SEED backup file!")
+                    # Save into cache file
+                    self._save_to_disk()
             except Exception as e:
-                print(f"[!] Failed to read disk cache: {e}")
+                print(f"[!] Failed to read seed backup file: {e}")
                 
     def _save_to_disk(self):
         try:
@@ -64,14 +81,14 @@ class FuelDataManager:
     def update_all(self):
         """
         Runs full multi-source refresh across Lukoil and Benzuber.
-        Thread-safe and updates internal cache and disk.
+        Thread-safe and preserves cached data if one source is temporarily unreachable.
         """
         with self._lock:
             if self._is_updating:
                 return False, "Обновление уже выполняется"
             self._is_updating = True
 
-        print(f"\n[{datetime.now().strftime('%H:%M:%S')}] Starting full fuel data refresh for Nizhny Novgorod...")
+        print(f"\n[{get_msk_iso()}] Starting full fuel data refresh for Nizhny Novgorod...")
         try:
             # 1. Fetch Lukoil stations
             lukoil_stations = fetch_lukoil_stations_nn()
@@ -79,6 +96,19 @@ class FuelDataManager:
             # 2. Fetch Benzuber stations (Tatneft, Gazpromneft, local brands)
             benzuber_stations = fetch_benzuber_stations_nn()
             
+            # Fail-safe preservation: if an API returned 0 stations, retain previous ones from memory
+            if not lukoil_stations:
+                old_lukoil = [s for s in self._stations if s.get("source") == "lukoil_api" or "лукойл" in s.get("brand", "").lower()]
+                if old_lukoil:
+                    print(f"[!] Lukoil API returned 0 stations. Preserving {len(old_lukoil)} cached Lukoil stations.")
+                    lukoil_stations = old_lukoil
+                    
+            if not benzuber_stations:
+                old_benzuber = [s for s in self._stations if s.get("source") == "benzuber_api" or "лукойл" not in s.get("brand", "").lower()]
+                if old_benzuber:
+                    print(f"[!] Benzuber API returned 0 stations. Preserving {len(old_benzuber)} cached Benzuber stations.")
+                    benzuber_stations = old_benzuber
+
             # 3. Merge and deduplicate
             merged = []
             seen_coords = set()
@@ -102,7 +132,7 @@ class FuelDataManager:
             
             with self._lock:
                 self._stations = merged
-                self._last_updated = datetime.now().isoformat()
+                self._last_updated = get_msk_iso()
                 self._is_updating = False
                 
             self._save_to_disk()
@@ -115,11 +145,13 @@ class FuelDataManager:
             return False, f"Ошибка обновления: {e}"
 
     def force_refresh(self):
-        """Manual refresh with 30s cooldown"""
+        """Manual refresh with 10s cooldown"""
+        if self._is_updating:
+            return False, "Обновление уже выполняется прямо сейчас"
         now = time.time()
-        if now - self._last_manual_refresh < 30:
-            rem = int(30 - (now - self._last_manual_refresh))
-            return False, f"Слишком частые запросы. Пожалуйста, подождите {rem} сек."
+        if now - self._last_manual_refresh < 10:
+            rem = int(10 - (now - self._last_manual_refresh))
+            return False, f"Слишком частые запросы. Подождите {rem} сек."
             
         self._last_manual_refresh = now
         threading.Thread(target=self.update_all, daemon=True).start()

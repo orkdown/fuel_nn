@@ -1,0 +1,3370 @@
+{
+  "updated_at": "2026-09-25T16:40:18.327835",
+  "count": 120,
+  "stations": [
+    {
+      "id": "benzuber_45168",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=45168",
+      "network": "ESCO",
+      "brand": "ESCO",
+      "name": "Коминтерна",
+      "address": "Нижегородская область, г. Нижний Новгород, ул. Коминтерна, 29",
+      "coords": [
+        56.343536,
+        43.889389
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:14.659899"
+    },
+    {
+      "id": "benzuber_45165",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=45165",
+      "network": "ESCO",
+      "brand": "ESCO",
+      "name": "Кстово",
+      "address": "г. Кстово, пр-кт Капитана Рачкова, 36А",
+      "coords": [
+        56.165371,
+        44.185474
+      ],
+      "fuels": {
+        "92": {
+          "name": "Аи-92 VIM",
+          "price": 119.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": null
+        },
+        "95": {
+          "name": "Аи-95 Евро",
+          "price": 139.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
+        "100": null,
+        "dt": {
+          "name": "Дт Евро",
+          "price": 78.95,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:15.230206"
+    },
+    {
+      "id": "benzuber_45167",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=45167",
+      "network": "ESCO",
+      "brand": "ESCO",
+      "name": "Северный",
+      "address": "Нижегородская область, г.о. Дзержинск, п. Северный, 393 км М7",
+      "coords": [
+        56.304302,
+        43.608131
+      ],
+      "fuels": {
+        "92": {
+          "name": "Аи-92 VIM",
+          "price": 119.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
+        "95": {
+          "name": "Аи-95 Евро",
+          "price": 139.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": null
+        },
+        "100": null,
+        "dt": {
+          "name": "Дт Евро",
+          "price": 78.95,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:15.997636"
+    },
+    {
+      "id": "benzuber_45169",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=45169",
+      "network": "ESCO",
+      "brand": "ESCO",
+      "name": "Станиславского",
+      "address": "Нижегородская область, г. Нижний Новгород, ул. Станиславского, 1 А",
+      "coords": [
+        56.350937,
+        43.839046
+      ],
+      "fuels": {
+        "92": {
+          "name": "Аи-92 Евро",
+          "price": 99.95,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
+        "95": {
+          "name": "Аи-95 Евро",
+          "price": 139.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:14.682466"
+    },
+    {
+      "id": "benzuber_45160",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=45160",
+      "network": "ESCO",
+      "brand": "ESCO",
+      "name": "Щербинки",
+      "address": "г. Нижний Новгород, пр-кт Гагарина, 236",
+      "coords": [
+        56.219448,
+        43.938107
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:15.203081"
+    },
+    {
+      "id": "benzuber_52871",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=52871",
+      "network": "IRBIS",
+      "brand": "IRBIS",
+      "name": "IRBIS Афонино",
+      "address": "д. Афонино, ул. Магистральная, 136 Б, Кстовский р-н",
+      "coords": [
+        56.25427,
+        44.097801
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "empty",
+      "updated_at": "2026-09-25T16:40:16.434974"
+    },
+    {
+      "id": "benzuber_52872",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=52872",
+      "network": "IRBIS",
+      "brand": "IRBIS",
+      "name": "IRBIS Б. Ельня",
+      "address": "с. Большая Ельня, ул. Магистральная",
+      "coords": [
+        56.218391,
+        44.104509
+      ],
+      "fuels": {
+        "92": {
+          "name": "АИ-92 XTRIM",
+          "price": 86.9,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
+        "95": {
+          "name": "AI-95",
+          "price": 97.9,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:16.935674"
+    },
+    {
+      "id": "benzuber_59644",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=59644",
+      "network": "IRBIS",
+      "brand": "IRBIS",
+      "name": "АЗС Нижний Новгород Ивлиева",
+      "address": "г. Нижний Новгород, ул. им. Генерала И.Д. Ивлиева, 33Г",
+      "coords": [
+        56.288565,
+        44.054659
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "empty",
+      "updated_at": "2026-09-25T16:40:18.275078"
+    },
+    {
+      "id": "benzuber_41098",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=41098",
+      "network": "NikOil",
+      "brand": "NikOil",
+      "name": "NO-068",
+      "address": "Нижегородская область, г. Кстово, ул. Магистральная 1б",
+      "coords": [
+        56.170982,
+        44.17009
+      ],
+      "fuels": {
+        "92": {
+          "name": "Аи92",
+          "price": 129.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
+        "95": {
+          "name": "AI-95",
+          "price": 149.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
+        "100": null,
+        "dt": {
+          "name": "ДТ-Евро",
+          "price": 85.0,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": null
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:14.699996"
+    },
+    {
+      "id": "benzuber_41097",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=41097",
+      "network": "NikOil",
+      "brand": "NikOil",
+      "name": "NO-296",
+      "address": "Нижегородская область, г. Нижний Новгород, ул. Электровозная 16а",
+      "coords": [
+        56.299126,
+        43.869579
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "empty",
+      "updated_at": "2026-09-25T16:40:17.237367"
+    },
+    {
+      "id": "benzuber_60265",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=60265",
+      "network": "VK Oil",
+      "brand": "VK Oil",
+      "name": "VK Oil",
+      "address": "г. Нижний Новгород, ул. Кузбасская, 1Ак1",
+      "coords": [
+        56.307087,
+        43.871392
+      ],
+      "fuels": {
+        "92": {
+          "name": "AI-92",
+          "price": 125.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
+        "95": {
+          "name": "AI-95",
+          "price": 130.0,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:17.328929"
+    },
+    {
+      "id": "benzuber_67069",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=67069",
+      "network": "АГЗС",
+      "brand": "АГЗС",
+      "name": "АГНКС 335",
+      "address": "г. Нижний Новгород, ул. Кима, 335",
+      "coords": [
+        56.38297,
+        43.797282
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:16.245672"
+    },
+    {
+      "id": "benzuber_64550",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=64550",
+      "network": "АГЗС",
+      "brand": "АГЗС",
+      "name": "АГНКС 40",
+      "address": "г. Нижний Новгород, ул. Удмуртская, 40А",
+      "coords": [
+        56.291509,
+        43.875495
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:17.843507"
+    },
+    {
+      "id": "benzuber_57518",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=57518",
+      "network": "АГЗС",
+      "brand": "АГЗС",
+      "name": "Регион-Метан 1",
+      "address": "г. Бор, ул. Нахимова, 74",
+      "coords": [
+        56.343552,
+        44.094482
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:17.800934"
+    },
+    {
+      "id": "benzuber_54410",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=54410",
+      "network": "АртМетанГрупп",
+      "brand": "АртМетанГрупп",
+      "name": "АМГ №5",
+      "address": "г. Кстово, ул. Магистральная, 1А",
+      "coords": [
+        56.170493,
+        44.170985
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:17.903540"
+    },
+    {
+      "id": "benzuber_54413",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=54413",
+      "network": "АртМетанГрупп",
+      "brand": "АртМетанГрупп",
+      "name": "АМГ №8",
+      "address": "г. Бор, ул. Интернациональная, 195",
+      "coords": [
+        56.369204,
+        44.107705
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:16.792083"
+    },
+    {
+      "id": "benzuber_49890",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=49890",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "ААЗС №246",
+      "address": "г. Бор, ул. Коммунистическая, 32Б",
+      "coords": [
+        56.33454,
+        44.12778
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "empty",
+      "updated_at": "2026-09-25T16:40:15.678462"
+    },
+    {
+      "id": "benzuber_60656",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=60656",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "ААЗС-578 ИП Гладков ПАРТНЕРЫ ГПН-Центр",
+      "address": "с. Федяково, Ольгинское ш.",
+      "coords": [
+        56.22171,
+        44.06755
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:16.272983"
+    },
+    {
+      "id": "benzuber_51952",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=51952",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АГНКС-1 г. Нижний Новгород",
+      "address": "г. Нижний Новгород, ул. Полевая, 1А",
+      "coords": [
+        56.234024,
+        43.990887
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:17.310599"
+    },
+    {
+      "id": "benzuber_76856",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=76856",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АГНКС-2 г. Дзержинск",
+      "address": "г. Дзержинск, ш. Автозаводское , 69Б",
+      "coords": [
+        56.2584,
+        43.6315
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:15.702636"
+    },
+    {
+      "id": "benzuber_51954",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=51954",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АГНКС-2 г. Нижний Новгород",
+      "address": "г. Нижний Новгород, ш. Московское, 296 Б",
+      "coords": [
+        56.311352,
+        43.834362
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:16.195061"
+    },
+    {
+      "id": "benzuber_50554",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=50554",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС №201",
+      "address": "г. Нижний Новгород, ул. Коминтерна, 17",
+      "coords": [
+        56.34069,
+        43.88066
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:16.763629"
+    },
+    {
+      "id": "benzuber_59908",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=59908",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС №202",
+      "address": "г. Нижний Новгород, пл. Комсомольская, 3А",
+      "coords": [
+        56.29926,
+        43.94522
+      ],
+      "fuels": {
+        "92": {
+          "name": "AI-92",
+          "price": 65.37,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
+        "95": {
+          "name": "G-Drive 95",
+          "price": 72.21,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:16.263178"
+    },
+    {
+      "id": "benzuber_50565",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=50565",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС №204",
+      "address": "г. Нижний Новгород, ул. Героя Попова, 58В",
+      "coords": [
+        56.25662,
+        43.93095
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:15.713828"
+    },
+    {
+      "id": "benzuber_50577",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=50577",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС №207",
+      "address": "г. Нижний Новгород, ул. Тимирязева, 11А",
+      "coords": [
+        56.30796,
+        44.00223
+      ],
+      "fuels": {
+        "92": {
+          "name": "AI-92",
+          "price": 65.5,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
+        "95": {
+          "name": "G-Drive 95",
+          "price": 71.77,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:16.745219"
+    },
+    {
+      "id": "benzuber_50579",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=50579",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС №208",
+      "address": "г. Нижний Новгород, ул. Ларина, 32",
+      "coords": [
+        56.23618,
+        44.02176
+      ],
+      "fuels": {
+        "92": null,
+        "95": {
+          "name": "AI-95",
+          "price": 70.04,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:15.209624"
+    },
+    {
+      "id": "benzuber_50582",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=50582",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС №209",
+      "address": "г. Нижний Новгород, Московское ш., 248А",
+      "coords": [
+        56.31302,
+        43.86571
+      ],
+      "fuels": {
+        "92": {
+          "name": "AI-92",
+          "price": 65.61,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
+        "95": {
+          "name": "AI-95",
+          "price": 70.31,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:17.812844"
+    },
+    {
+      "id": "benzuber_50596",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=50596",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС №213",
+      "address": "г. Дзержинск, Московское ш., 398 км (справа)",
+      "coords": [
+        56.30612,
+        43.68386
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:15.231266"
+    },
+    {
+      "id": "benzuber_50599",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=50599",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС №214",
+      "address": "г. Нижний Новгород, ул. Ларина, 2",
+      "coords": [
+        56.24293,
+        43.97331
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:16.713036"
+    },
+    {
+      "id": "benzuber_50603",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=50603",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС №215",
+      "address": "г. Нижний Новгород, Московское ш., 213Б",
+      "coords": [
+        56.31467,
+        43.86931
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "empty",
+      "updated_at": "2026-09-25T16:40:14.636827"
+    },
+    {
+      "id": "benzuber_50978",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=50978",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС №216",
+      "address": "г. Нижний Новгород, ул. Ленина, 92А",
+      "coords": [
+        56.25587,
+        43.89781
+      ],
+      "fuels": {
+        "92": {
+          "name": "AI-92",
+          "price": 65.74,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
+        "95": {
+          "name": "G-Drive 95",
+          "price": 72.21,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:15.714239"
+    },
+    {
+      "id": "benzuber_50631",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=50631",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС №224",
+      "address": "г. Нижний Новгород, Московское ш., 235",
+      "coords": [
+        56.31305,
+        43.84714
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:15.730923"
+    },
+    {
+      "id": "benzuber_50654",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=50654",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС №233",
+      "address": "п. Ждановский, 428 км а/д М7 (слева)",
+      "coords": [
+        56.20647,
+        44.09045
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:16.762089"
+    },
+    {
+      "id": "benzuber_50663",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=50663",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС №235",
+      "address": "г. Нижний Новгород, ул. Федосеенко, 63А",
+      "coords": [
+        56.33312,
+        43.79435
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:17.282387"
+    },
+    {
+      "id": "benzuber_50664",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=50664",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС №236",
+      "address": "г. Нижний Новгород, ул. Федосеенко, 64Б",
+      "coords": [
+        56.33407,
+        43.79365
+      ],
+      "fuels": {
+        "92": {
+          "name": "AI-92",
+          "price": 64.65,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
+        "95": {
+          "name": "G-Drive 95",
+          "price": 72.04,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:16.762712"
+    },
+    {
+      "id": "benzuber_50671",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=50671",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС №238",
+      "address": "г. Нижний Новгород, ул. Ярошенко, 1А",
+      "coords": [
+        56.33052,
+        43.85795
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "empty",
+      "updated_at": "2026-09-25T16:40:15.750297"
+    },
+    {
+      "id": "benzuber_50679",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=50679",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС №242",
+      "address": "г. Бор, ул. Нахимова",
+      "coords": [
+        56.34918,
+        44.0926
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "empty",
+      "updated_at": "2026-09-25T16:40:16.766010"
+    },
+    {
+      "id": "benzuber_50680",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=50680",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС №243",
+      "address": "пос. Ждановский, ФАД М-7, 428 км (справа)",
+      "coords": [
+        56.2073,
+        44.08651
+      ],
+      "fuels": {
+        "92": {
+          "name": "AI-92",
+          "price": 64.94,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
+        "95": {
+          "name": "G-Drive 95",
+          "price": 72.04,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:15.277164"
+    },
+    {
+      "id": "benzuber_49901",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=49901",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС №244",
+      "address": "г. Нижний Новгород, ул. Юбилейная, 3",
+      "coords": [
+        56.28589,
+        43.99838
+      ],
+      "fuels": {
+        "92": {
+          "name": "AI-92",
+          "price": 65.56,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
+        "95": {
+          "name": "AI-95",
+          "price": 69.91,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:17.362635"
+    },
+    {
+      "id": "benzuber_50685",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=50685",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС №245",
+      "address": "г. Бор, ул. Красногорка, 99А",
+      "coords": [
+        56.39197,
+        44.01143
+      ],
+      "fuels": {
+        "92": {
+          "name": "AI-92",
+          "price": 65.07,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
+        "95": {
+          "name": "G-Drive 95",
+          "price": 71.79,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:17.752597"
+    },
+    {
+      "id": "benzuber_50689",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=50689",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС №247",
+      "address": "г. Бор, ул. Кольцова, 24А",
+      "coords": [
+        56.37755,
+        44.05587
+      ],
+      "fuels": {
+        "92": {
+          "name": "AI-92",
+          "price": 65.07,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": "Лимит 30л"
+        },
+        "95": {
+          "name": "AI-95",
+          "price": 69.79,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": "Лимит 30л"
+        },
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:17.841047"
+    },
+    {
+      "id": "benzuber_50691",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=50691",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС №248",
+      "address": "д. Кусаковка, ул. Центральная, 1/2",
+      "coords": [
+        56.18632,
+        43.92157
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:16.727142"
+    },
+    {
+      "id": "benzuber_50697",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=50697",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС №252",
+      "address": "г. Нижний Новгород, ул. Академика Сахарова, 8",
+      "coords": [
+        56.26289,
+        44.02308
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:15.210651"
+    },
+    {
+      "id": "benzuber_50700",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=50700",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС №253",
+      "address": "г. Нижний Новгород, ул. Щербакова, 27",
+      "coords": [
+        56.35095,
+        43.87473
+      ],
+      "fuels": {
+        "92": {
+          "name": "AI-92",
+          "price": 65.5,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
+        "95": {
+          "name": "AI-95",
+          "price": 70.21,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:14.699797"
+    },
+    {
+      "id": "benzuber_50651",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=50651",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС-232 ГПН-СЗ НН",
+      "address": "Нижегородская область, 443 км а/д &quot;Москва-Казань&quot;",
+      "coords": [
+        56.12383,
+        44.26661
+      ],
+      "fuels": {
+        "92": {
+          "name": "AI-92",
+          "price": 64.94,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 30л"
+        },
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:15.741292"
+    },
+    {
+      "id": "benzuber_60622",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=60622",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС-346 ИП Гладков ПАРТНЕРЫ ГПН-Центр",
+      "address": "г. Нижний Новгород, ул. Героя Попова, 38",
+      "coords": [
+        56.25504,
+        43.92797
+      ],
+      "fuels": {
+        "92": {
+          "name": "AI-92",
+          "price": 69.95,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": "Лимит 40л"
+        },
+        "95": {
+          "name": "AI-95",
+          "price": 72.95,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": "Лимит 40л"
+        },
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:14.700628"
+    },
+    {
+      "id": "benzuber_60650",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=60650",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС-347 ИП Гладков ПАРТНЕРЫ ГПН-Центр",
+      "address": "д. Афонино, ул. Магистральная, 10Б",
+      "coords": [
+        56.2698,
+        44.0894
+      ],
+      "fuels": {
+        "92": {
+          "name": "AI-92",
+          "price": 69.95,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 40л"
+        },
+        "95": {
+          "name": "G-Drive 95",
+          "price": 75.95,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 40л"
+        },
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:16.219264"
+    },
+    {
+      "id": "benzuber_60605",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=60605",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС-348 ИП Гладков ПАРТНЕРЫ ГПН-Центр",
+      "address": "с. Вязовка, ул. Радужная, 49",
+      "coords": [
+        56.12706,
+        43.91664
+      ],
+      "fuels": {
+        "92": {
+          "name": "AI-92",
+          "price": 69.95,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": "Лимит 40л"
+        },
+        "95": {
+          "name": "G-Drive 95",
+          "price": 75.95,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": "Лимит 40л"
+        },
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:17.782379"
+    },
+    {
+      "id": "benzuber_60648",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=60648",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС-349 ИП Гладков ПАРТНЕРЫ ГПН-Центр",
+      "address": "г. Нижний Новгород, ул. Коновалова, 18Д",
+      "coords": [
+        56.35593,
+        43.80427
+      ],
+      "fuels": {
+        "92": {
+          "name": "AI-92",
+          "price": 69.95,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 40л"
+        },
+        "95": {
+          "name": "G-Drive 95",
+          "price": 75.95,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 40л"
+        },
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:17.318937"
+    },
+    {
+      "id": "benzuber_60594",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=60594",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС-350 ИП Гладков ПАРТНЕРЫ ГПН-Центр",
+      "address": "г. Бор, трасса Р-159, 10-й км",
+      "coords": [
+        56.36625,
+        43.93893
+      ],
+      "fuels": {
+        "92": {
+          "name": "AI-92",
+          "price": 69.95,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": "Лимит 40л"
+        },
+        "95": {
+          "name": "G-Drive 95",
+          "price": 75.95,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": "Лимит 40л"
+        },
+        "100": {
+          "name": "G-100",
+          "price": 99.95,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": "Лимит 40л"
+        },
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:17.338229"
+    },
+    {
+      "id": "benzuber_60616",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=60616",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "АЗС-552 ИП Гладков ПАРТНЕРЫ ГПН-Центр",
+      "address": "д. Доскино, ул. Магистральная, 44Б",
+      "coords": [
+        56.16768,
+        43.73579
+      ],
+      "fuels": {
+        "92": {
+          "name": "AI-92",
+          "price": 69.95,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": "Лимит 40л"
+        },
+        "95": {
+          "name": "G-Drive 95",
+          "price": 75.95,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 40л"
+        },
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:17.437386"
+    },
+    {
+      "id": "benzuber_59968",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=59968",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "Газпром ГЭС №12",
+      "address": "г. Кстово, ул. Магистральная, 22Д",
+      "coords": [
+        56.14369,
+        44.224181
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:18.302957"
+    },
+    {
+      "id": "benzuber_59096",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=59096",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "Газпром №443",
+      "address": "г. Кстово, ш. Центральное,  д.1",
+      "coords": [
+        56.119072,
+        44.155079
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:17.273579"
+    },
+    {
+      "id": "benzuber_59097",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=59097",
+      "network": "Газпромнефть",
+      "brand": "Газпромнефть",
+      "name": "Газпром №444",
+      "address": "г. Нижний Новгород, ул. Коновалова, д.1",
+      "coords": [
+        56.350937,
+        43.802959
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "empty",
+      "updated_at": "2026-09-25T16:40:18.282360"
+    },
+    {
+      "id": "benzuber_44454",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=44454",
+      "network": "Корунд Ойл",
+      "brand": "Корунд Ойл",
+      "name": "Корунд Ойл №109",
+      "address": "г. Бор, ул. Республиканская, 39, уч. 1",
+      "coords": [
+        56.369827,
+        44.081264
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "empty",
+      "updated_at": "2026-09-25T16:40:15.623899"
+    },
+    {
+      "id": "benzuber_56682",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=56682",
+      "network": "Корунд Ойл",
+      "brand": "Корунд Ойл",
+      "name": "Корунд Ойл №3",
+      "address": "г. Бор, Ситники-2, соор. 3",
+      "coords": [
+        56.415961,
+        44.005833
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "empty",
+      "updated_at": "2026-09-25T16:40:18.277748"
+    },
+    {
+      "id": "benzuber_49493",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=49493",
+      "network": "Корунд Ойл",
+      "brand": "Корунд Ойл",
+      "name": "Корунд Ойл №320",
+      "address": "г. Бор, ул. Санаторная, 27",
+      "coords": [
+        56.325428,
+        44.141228
+      ],
+      "fuels": {
+        "92": {
+          "name": "AI-92",
+          "price": 129.95,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
+        "95": {
+          "name": "AI-95",
+          "price": 149.95,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": null
+        },
+        "100": {
+          "name": "AI-100",
+          "price": 93.95,
+          "available": true,
+          "raw_status": "возможно есть",
+          "limit": null
+        },
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:16.253311"
+    },
+    {
+      "id": "lukoil_134070",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "ААЗС № 52049",
+      "address": "Нижегородская обл., г. Кстово, ул. Сутырина, (в сторону Казани)",
+      "coords": [
+        56.142546,
+        44.221901
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "closed",
+      "updated_at": "2026-09-25T16:40:10.912076"
+    },
+    {
+      "id": "lukoil_134016",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "ААЗС № 52072",
+      "address": "Нижегородская обл., г. Бор, ш. Стеклозаводское (из г. Бор)",
+      "coords": [
+        56.343699,
+        44.090449
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "closed",
+      "updated_at": "2026-09-25T16:40:09.827473"
+    },
+    {
+      "id": "lukoil_134034",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52002",
+      "address": "Нижегородская обл., г. Нижний Новгород, ш. Комсомольское",
+      "coords": [
+        56.295481,
+        43.932997
+      ],
+      "fuels": {
+        "92": {
+          "name": "АИ 92 ЭКТО",
+          "price": 64.65,
+          "available": true,
+          "raw_status": "available"
+        },
+        "95": {
+          "name": "АИ 95 ЕВРО",
+          "price": 69.93,
+          "available": true,
+          "raw_status": "available"
+        },
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЭКТО",
+          "price": 78.86,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:09.809770"
+    },
+    {
+      "id": "lukoil_135044",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52003",
+      "address": "Нижегородская обл., г. Нижний Новгород, ул. Бурнаковская",
+      "coords": [
+        56.343832,
+        43.894322
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "closed",
+      "updated_at": "2026-09-25T16:40:11.496267"
+    },
+    {
+      "id": "lukoil_134035",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52005",
+      "address": "Нижегородская обл., г. Нижний Новгород, пр-кт Гагарина",
+      "coords": [
+        56.228012,
+        43.942016
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЭКТО",
+          "price": 78.86,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:09.826262"
+    },
+    {
+      "id": "lukoil_135049",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52006",
+      "address": "Нижегородская обл., г. Нижний Новгород, ул. Родионова",
+      "coords": [
+        56.316353,
+        44.069105
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЭКТО",
+          "price": 78.86,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:11.537247"
+    },
+    {
+      "id": "lukoil_134036",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52007",
+      "address": "Нижегородская обл., г. Нижний Новгород, ул. Кима",
+      "coords": [
+        56.382897,
+        43.793194
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЭКТО",
+          "price": 78.86,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:09.809881"
+    },
+    {
+      "id": "lukoil_134037",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52008",
+      "address": "Нижегородская обл., г. Нижний Новгород, ул. Ларина",
+      "coords": [
+        56.239784,
+        43.989899
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЕВРО",
+          "price": 78.1,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:09.861626"
+    },
+    {
+      "id": "lukoil_134039",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52010",
+      "address": "Нижегородская обл., г. Нижний Новгород, ул. Салганская",
+      "coords": [
+        56.302388,
+        44.013576
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "closed",
+      "updated_at": "2026-09-25T16:40:09.835101"
+    },
+    {
+      "id": "lukoil_134040",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52011",
+      "address": "Нижегородская обл., г. Нижний Новгород, ш. Московское",
+      "coords": [
+        56.317675,
+        43.929585
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": {
+          "name": "АИ 100 ЭКТО",
+          "price": 98.49,
+          "available": true,
+          "raw_status": "available"
+        },
+        "dt": {
+          "name": "ДИЗЕЛЬ ЭКТО",
+          "price": 78.86,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:10.151292"
+    },
+    {
+      "id": "lukoil_134041",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52012",
+      "address": "Нижегородская обл., г. Нижний Новгород, ул. Кузбасская",
+      "coords": [
+        56.309815,
+        43.870657
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЭКТО",
+          "price": 78.86,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:10.395798"
+    },
+    {
+      "id": "lukoil_135070",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52013",
+      "address": "Нижегородская обл., г. Нижний Новгород, ул. Голубева 55",
+      "coords": [
+        56.287947,
+        43.953491
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЭКТО",
+          "price": 78.86,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:11.688492"
+    },
+    {
+      "id": "lukoil_134042",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52014",
+      "address": "Нижегородская обл., г. Нижний Новгород, ул. Безводная",
+      "coords": [
+        56.21266,
+        43.80232
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЭКТО",
+          "price": 78.86,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:10.193266"
+    },
+    {
+      "id": "lukoil_134043",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52015",
+      "address": "Нижегородская обл., г. Нижний Новгород, ул. Монастырка",
+      "coords": [
+        56.236327,
+        43.88277
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЭКТО",
+          "price": 78.86,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:10.209799"
+    },
+    {
+      "id": "lukoil_135046",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52016",
+      "address": "Нижегородская обл., г. Нижний Новгород, ул. Июльских Дней",
+      "coords": [
+        56.309469,
+        43.946964
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЭКТО",
+          "price": 78.86,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:11.536213"
+    },
+    {
+      "id": "lukoil_135047",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52017",
+      "address": "Нижегородская обл., г. Нижний Новгород, б-р Мещерский",
+      "coords": [
+        56.33336,
+        43.948777
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЭКТО",
+          "price": 78.86,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:11.525396"
+    },
+    {
+      "id": "lukoil_134044",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52019",
+      "address": "Нижегородская обл., г. Нижний Новгород, ул. Коновалова",
+      "coords": [
+        56.351193,
+        43.801734
+      ],
+      "fuels": {
+        "92": {
+          "name": "АИ 92 ЭКТО",
+          "price": 64.65,
+          "available": true,
+          "raw_status": "available"
+        },
+        "95": {
+          "name": "АИ 95 ЕВРО",
+          "price": 69.93,
+          "available": true,
+          "raw_status": "available"
+        },
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЭКТО",
+          "price": 78.86,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:10.176335"
+    },
+    {
+      "id": "lukoil_134045",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52020",
+      "address": "Нижегородская обл., г. Нижний Новгород, пр-кт Гагарина",
+      "coords": [
+        56.288246,
+        43.980212
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "closed",
+      "updated_at": "2026-09-25T16:40:10.176412"
+    },
+    {
+      "id": "lukoil_135054",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52022",
+      "address": "Нижегородская обл., г. о. город Нижний Новгород, г. Нижний Новгород, ул. Академика Сахарова",
+      "coords": [
+        56.279505,
+        44.03472
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЭКТО",
+          "price": 78.86,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:11.664533"
+    },
+    {
+      "id": "lukoil_134047",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52023",
+      "address": "Нижегородская обл., г. Нижний Новгород, ул. Красная Слобода",
+      "coords": [
+        56.328926,
+        44.0309
+      ],
+      "fuels": {
+        "92": null,
+        "95": {
+          "name": "АИ 95 ЭКТО",
+          "price": 70.58,
+          "available": true,
+          "raw_status": "available"
+        },
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЭКТО",
+          "price": 78.86,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:10.193190"
+    },
+    {
+      "id": "lukoil_134060",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52024",
+      "address": "Нижегородская обл., г. Нижний Новгород, пр-кт Ленина",
+      "coords": [
+        56.26149,
+        43.908562
+      ],
+      "fuels": {
+        "92": null,
+        "95": {
+          "name": "АИ 95 ЭКТО",
+          "price": 70.58,
+          "available": true,
+          "raw_status": "available"
+        },
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЭКТО",
+          "price": 78.86,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:10.831742"
+    },
+    {
+      "id": "lukoil_134048",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52026",
+      "address": "Нижегородская обл., г. Нижний Новгород, ул. Кузбасская",
+      "coords": [
+        56.303131,
+        43.871769
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЭКТО",
+          "price": 78.86,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:10.480972"
+    },
+    {
+      "id": "lukoil_134049",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52027",
+      "address": "Нижегородская обл., г. Нижний Новгород, ш. Московское",
+      "coords": [
+        56.311923,
+        43.867052
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЭКТО",
+          "price": 78.86,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:10.523831"
+    },
+    {
+      "id": "lukoil_134050",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52028",
+      "address": "Нижегородская обл., г. Нижний Новгород, ул. Федосеенко",
+      "coords": [
+        56.339626,
+        43.805692
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "closed",
+      "updated_at": "2026-09-25T16:40:10.514686"
+    },
+    {
+      "id": "lukoil_134057",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52033",
+      "address": "Нижегородская обл., г. Нижний Новгород, ул. Куйбышева",
+      "coords": [
+        56.334428,
+        43.918239
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "closed",
+      "updated_at": "2026-09-25T16:40:10.554724"
+    },
+    {
+      "id": "lukoil_134052",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52035",
+      "address": "Нижегородская обл., г. Нижний Новгород, ул. Дьяконова",
+      "coords": [
+        56.257289,
+        43.868774
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "closed",
+      "updated_at": "2026-09-25T16:40:10.523911"
+    },
+    {
+      "id": "lukoil_135038",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52038",
+      "address": "Нижегородская обл., г. Дзержинск, п. Гавриловка,  7км+700м Гавриловской а/д, (из Москвы)",
+      "coords": [
+        56.242322,
+        43.722009
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЭКТО",
+          "price": 78.86,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:11.365426"
+    },
+    {
+      "id": "lukoil_135037",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52039",
+      "address": "Нижегородская обл., г. Дзержинск, п. Гавриловка, 7км+700м Гавриловской а/д, (в сторону Москвы)",
+      "coords": [
+        56.242995,
+        43.725189
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЭКТО",
+          "price": 78.86,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:11.346691"
+    },
+    {
+      "id": "lukoil_134055",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52044",
+      "address": "Нижегородская обл., г. Балахна, ул. Челюскинцев",
+      "coords": [
+        56.477257,
+        43.607151
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЭКТО",
+          "price": 78.86,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:10.540427"
+    },
+    {
+      "id": "lukoil_135011",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52047",
+      "address": "Нижегородская обл., г. Кстово, 3 км на юг от Кстово",
+      "coords": [
+        56.101329,
+        44.138719
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "closed",
+      "updated_at": "2026-09-25T16:40:11.227859"
+    },
+    {
+      "id": "lukoil_135010",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52048",
+      "address": "Нижегородская обл., г. Кстово, ул. Магистральная  (в сторону Нижнего Новгорода)",
+      "coords": [
+        56.14379,
+        44.22364
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЕВРО",
+          "price": 78.1,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:11.188001"
+    },
+    {
+      "id": "lukoil_134071",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52050",
+      "address": "Нижегородская обл., п. Ждановский, ул. Магистральная",
+      "coords": [
+        56.213479,
+        44.105519
+      ],
+      "fuels": {
+        "92": null,
+        "95": {
+          "name": "АИ 95 ЕВРО",
+          "price": 69.93,
+          "available": true,
+          "raw_status": "available"
+        },
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЕВРО",
+          "price": 78.1,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:11.027381"
+    },
+    {
+      "id": "lukoil_135072",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52053",
+      "address": "Нижегородская обл., с. Федяково, а/д М-7 \"Волга\"",
+      "coords": [
+        56.222644,
+        44.074168
+      ],
+      "fuels": {
+        "92": null,
+        "95": {
+          "name": "АИ 95 ЕВРО",
+          "price": 69.93,
+          "available": true,
+          "raw_status": "available"
+        },
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЕВРО",
+          "price": 78.1,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:11.831573"
+    },
+    {
+      "id": "lukoil_134072",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52065",
+      "address": "Нижегородская обл., г. Кстово, Кстовский р-н, д. Опалиха, ул. Промзона,  (в сторону Нижнего Новгорода)",
+      "coords": [
+        56.185333,
+        44.143608
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЭКТО",
+          "price": 78.86,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:11.038403"
+    },
+    {
+      "id": "lukoil_134073",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52066",
+      "address": "Нижегородская обл., г. Кстово, Кстовский р-н, д. Крутая,  ул. Придорожная, (из Нижнего Новгорода)",
+      "coords": [
+        56.184947,
+        44.142727
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЕВРО",
+          "price": 78.1,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:11.139644"
+    },
+    {
+      "id": "lukoil_134015",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52071",
+      "address": "Нижегородская обл., г. Бор, ш. Стеклозаводское, (из г. Бор)",
+      "coords": [
+        56.344799,
+        44.087319
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "error",
+      "updated_at": "2026-09-25T16:40:10.697284"
+    },
+    {
+      "id": "lukoil_134017",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52073",
+      "address": "Нижегородская обл., г. Бор, п. Неклюдово, ул. Озерная",
+      "coords": [
+        56.39556,
+        44.00005
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЭКТО",
+          "price": 78.86,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:09.827398"
+    },
+    {
+      "id": "lukoil_134063",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52077",
+      "address": "Нижегородская обл., д. Березовка, Зона автозаправочная станция",
+      "coords": [
+        56.131129,
+        43.60634
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "error",
+      "updated_at": "2026-09-25T16:40:11.777581"
+    },
+    {
+      "id": "lukoil_134199",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52186",
+      "address": "Нижегородская обл., г. Нижний Новгород, пр-кт Гагарина",
+      "coords": [
+        56.223972,
+        43.941209
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЭКТО",
+          "price": 78.86,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:11.196915"
+    },
+    {
+      "id": "lukoil_134058",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52187",
+      "address": "Нижегородская обл., г. Нижний Новгород, пр-кт Героев",
+      "coords": [
+        56.322429,
+        43.882713
+      ],
+      "fuels": {
+        "92": null,
+        "95": {
+          "name": "АИ 95 ЕВРО",
+          "price": 69.93,
+          "available": true,
+          "raw_status": "available"
+        },
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:10.720127"
+    },
+    {
+      "id": "lukoil_134062",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52188",
+      "address": "Нижегородская обл., г. Нижний Новгород, ул. Героя Попова",
+      "coords": [
+        56.258206,
+        43.933698
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "error",
+      "updated_at": "2026-09-25T16:40:11.667360"
+    },
+    {
+      "id": "lukoil_134059",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52189",
+      "address": "Нижегородская обл., г. Нижний Новгород, ул. Ванеева",
+      "coords": [
+        56.288151,
+        44.037033
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЭКТО",
+          "price": 78.86,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:10.808725"
+    },
+    {
+      "id": "lukoil_134061",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52219",
+      "address": "Нижегородская обл., г. Нижний Новгород, ш. Московское",
+      "coords": [
+        56.312975,
+        43.841571
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": {
+          "name": "АИ 100 ЭКТО",
+          "price": 98.49,
+          "available": true,
+          "raw_status": "available"
+        },
+        "dt": {
+          "name": "ДИЗЕЛЬ ЭКТО",
+          "price": 78.86,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:10.849841"
+    },
+    {
+      "id": "lukoil_135801",
+      "source": "lukoil_api",
+      "source_name": "API Ликард / Лукойл (v14)",
+      "source_url": null,
+      "network": "Лукойл",
+      "brand": "Лукойл",
+      "name": "АЗС № 52221",
+      "address": "Нижегородская обл., г. Нижний Новгород, ш. Московское",
+      "coords": [
+        56.310046,
+        43.788555
+      ],
+      "fuels": {
+        "92": {
+          "name": "АИ 92 ЭКТО",
+          "price": 64.65,
+          "available": true,
+          "raw_status": "available"
+        },
+        "95": {
+          "name": "АИ 95 ЕВРО",
+          "price": 69.93,
+          "available": true,
+          "raw_status": "available"
+        },
+        "100": null,
+        "dt": {
+          "name": "ДИЗЕЛЬ ЕВРО",
+          "price": 78.1,
+          "available": true,
+          "raw_status": "available"
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:11.855730"
+    },
+    {
+      "id": "benzuber_53226",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=53226",
+      "network": "ОКА-Пропан",
+      "brand": "ОКА-Пропан",
+      "name": "АГЗС Варя",
+      "address": "Нижегородская область, г. Нижний Новгород, ул. Коминтерна, 35 В",
+      "coords": [
+        56.338276,
+        43.888165
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:16.202398"
+    },
+    {
+      "id": "benzuber_53243",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=53243",
+      "network": "ОКА-Пропан",
+      "brand": "ОКА-Пропан",
+      "name": "АГЗС Зайцева",
+      "address": "Нижегородская область, г. Нижний Новгород, ул. Зайцева, 42",
+      "coords": [
+        56.37418,
+        43.792774
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:17.852001"
+    },
+    {
+      "id": "benzuber_53227",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=53227",
+      "network": "ОКА-Пропан",
+      "brand": "ОКА-Пропан",
+      "name": "АГЗС Ларина",
+      "address": "Нижегородская область, г. Нижний Новгород, ул. Ларина, 13 А",
+      "coords": [
+        56.238247,
+        43.996918
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:16.183788"
+    },
+    {
+      "id": "benzuber_53242",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=53242",
+      "network": "ОКА-Пропан",
+      "brand": "ОКА-Пропан",
+      "name": "АГЗС Подновье",
+      "address": "Нижегородская область, д. Кузьминка, ул. Набережная Гребного канала, 3 А",
+      "coords": [
+        56.293571,
+        44.108974
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:14.672040"
+    },
+    {
+      "id": "benzuber_53222",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=53222",
+      "network": "ОКА-Пропан",
+      "brand": "ОКА-Пропан",
+      "name": "АГЗС Суздальская",
+      "address": "Нижегородская область, г. Нижний Новгород, ул. Суздальская, 1",
+      "coords": [
+        56.255558,
+        43.939232
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:18.308078"
+    },
+    {
+      "id": "benzuber_53223",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=53223",
+      "network": "ОКА-Пропан",
+      "brand": "ОКА-Пропан",
+      "name": "МАЗС Украинская",
+      "address": "Нижегородская область, г. Нижний Новгород, ул. Украинская, 37",
+      "coords": [
+        56.303314,
+        43.921238
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:14.682321"
+    },
+    {
+      "id": "benzuber_51804",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=51804",
+      "network": "Реал Инвест",
+      "brand": "Реал Инвест",
+      "name": "АГЗС № 1",
+      "address": "Нижегородская область, г. Нижний Новгород, Казанское шоссе, 18",
+      "coords": [
+        56.282558,
+        44.078938
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:17.815085"
+    },
+    {
+      "id": "benzuber_51812",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=51812",
+      "network": "Реал Инвест",
+      "brand": "Реал Инвест",
+      "name": "АГЗС № 14",
+      "address": "Нижегородская область, г. Нижний Новгород, ул. Борская, 17",
+      "coords": [
+        56.257702,
+        43.888309
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:17.812711"
+    },
+    {
+      "id": "benzuber_51805",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=51805",
+      "network": "Реал Инвест",
+      "brand": "Реал Инвест",
+      "name": "АГЗС № 2",
+      "address": "Нижегородская область, г. Нижний Новгород, ул. Рябцева (Московское шоссе)",
+      "coords": [
+        56.31411,
+        43.866234
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:18.320835"
+    },
+    {
+      "id": "benzuber_51820",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=51820",
+      "network": "Реал Инвест",
+      "brand": "Реал Инвест",
+      "name": "АГЗС № 29",
+      "address": "Нижегородская область, г. Нижний Новгород, ул. Окская гавань, 19",
+      "coords": [
+        56.239567,
+        43.905903
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:15.193609"
+    },
+    {
+      "id": "benzuber_51806",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=51806",
+      "network": "Реал Инвест",
+      "brand": "Реал Инвест",
+      "name": "АГЗС № 3",
+      "address": "Нижегородская область, г. Нижний Новгород, пересечение ул. Куйбышева и ул. Бурнаковская",
+      "coords": [
+        56.339806,
+        43.918682
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:15.441217"
+    },
+    {
+      "id": "benzuber_51828",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=51828",
+      "network": "Реал Инвест",
+      "brand": "Реал Инвест",
+      "name": "АГЗС № 33",
+      "address": "Нижегородская область, г. Балахна, ул. Челюскинцев, 28А",
+      "coords": [
+        56.471226,
+        43.613689
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:16.726493"
+    },
+    {
+      "id": "benzuber_51810",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=51810",
+      "network": "Реал Инвест",
+      "brand": "Реал Инвест",
+      "name": "АЗС № 10",
+      "address": "Нижегородская область, г. Нижний Новгород, ул. Борская, 17",
+      "coords": [
+        56.258251,
+        43.889965
+      ],
+      "fuels": {
+        "92": {
+          "name": "AI-92",
+          "price": 150.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "95": {
+          "name": "AI-95",
+          "price": 115.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "empty",
+      "updated_at": "2026-09-25T16:40:16.229023"
+    },
+    {
+      "id": "benzuber_51807",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=51807",
+      "network": "Реал Инвест",
+      "brand": "Реал Инвест",
+      "name": "МАЗС № 6",
+      "address": "Нижегородская область, г. Кстово, ул. Магистральная, 1",
+      "coords": [
+        56.177666,
+        44.157379
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:18.310442"
+    },
+    {
+      "id": "benzuber_44125",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=44125",
+      "network": "СфераОйл",
+      "brand": "СфераОйл",
+      "name": "SFO-005",
+      "address": "Нижегородская область, г. Нижний Новгород, ул. Монастырка 15 А",
+      "coords": [
+        56.236122,
+        43.883961
+      ],
+      "fuels": {
+        "92": {
+          "name": "AI-92",
+          "price": 68.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "95": {
+          "name": "AI-95",
+          "price": 72.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "100": null,
+        "dt": {
+          "name": "ДТф",
+          "price": 78.5,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:15.239159"
+    },
+    {
+      "id": "benzuber_44123",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=44123",
+      "network": "СфераОйл",
+      "brand": "СфераОйл",
+      "name": "SFO-309",
+      "address": "Нижегородская область, г. Нижний Новгород, пр. Молодежный 82, А",
+      "coords": [
+        56.248409,
+        43.804138
+      ],
+      "fuels": {
+        "92": {
+          "name": "AI-92",
+          "price": 68.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "95": {
+          "name": "AI-95",
+          "price": 72.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "100": null,
+        "dt": {
+          "name": "ДТф",
+          "price": 82.0,
+          "available": false,
+          "raw_status": "остановка продаж",
+          "limit": null
+        },
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:15.668273"
+    },
+    {
+      "id": "benzuber_47440",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=47440",
+      "network": "Татнефть",
+      "brand": "Татнефть",
+      "name": "Татнефть №188 (Владимирский ф-л)",
+      "address": "г. Нижний Новгород, пр-кт Гагарина, 69А",
+      "coords": [
+        56.246374,
+        43.96553
+      ],
+      "fuels": {
+        "92": null,
+        "95": {
+          "name": "AI-95",
+          "price": 69.39,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 40л"
+        },
+        "100": {
+          "name": "AI-98",
+          "price": 99.99,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 40л"
+        },
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:14.727444"
+    },
+    {
+      "id": "benzuber_48166",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=48166",
+      "network": "Татнефть",
+      "brand": "Татнефть",
+      "name": "Татнефть №366 (Владимирский ф-л)",
+      "address": "д. Опалиха, М7, 430 км, слева",
+      "coords": [
+        56.198337,
+        44.111997
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": {
+          "name": "AI-98",
+          "price": 99.99,
+          "available": true,
+          "raw_status": "топливо есть",
+          "limit": "Лимит 40л"
+        },
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:14.717514"
+    },
+    {
+      "id": "benzuber_48929",
+      "source": "benzuber_api",
+      "source_name": "API Benzuber (партнер АЗС)",
+      "source_url": "https://app.benzuber.ru/map?station_id=48929",
+      "network": "Татнефть",
+      "brand": "Татнефть",
+      "name": "Татнефть №599 (Владимирский ф-л)",
+      "address": "г. Нижний Новгород, пр-кт Молодёжный, 29В",
+      "coords": [
+        56.244038,
+        43.824821
+      ],
+      "fuels": {
+        "92": null,
+        "95": null,
+        "100": null,
+        "dt": null,
+        "lpg": null
+      },
+      "status": "active",
+      "updated_at": "2026-09-25T16:40:15.133925"
+    }
+  ]
+}

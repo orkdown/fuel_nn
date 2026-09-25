@@ -6,7 +6,7 @@ import time
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor
 
-from backend.config import NN_LAT_MIN, NN_LAT_MAX, NN_LON_MIN, NN_LON_MAX
+from backend.config import NN_LAT_MIN, NN_LAT_MAX, NN_LON_MIN, NN_LON_MAX, get_msk_iso
 
 URL_STATION_LIST = "https://azs.lukoil.ru/api/v14/common/station/list"
 URL_FUEL_LIST = "https://azs.lukoil.ru/api/v14/common/station/fuel/list"
@@ -64,7 +64,7 @@ def fetch_lukoil_station_fuels(station_item):
                         "coords": [station_item["lat"], station_item["lon"]],
                         "fuels": fuels_dict,
                         "status": "closed",
-                        "updated_at": datetime.now().isoformat()
+                        "updated_at": get_msk_iso()
                     }
                 
                 has_any_active = False
@@ -114,7 +114,7 @@ def fetch_lukoil_station_fuels(station_item):
                     "coords": [station_item["lat"], station_item["lon"]],
                     "fuels": fuels_dict,
                     "status": "active" if has_any_active else "empty",
-                    "updated_at": datetime.now().isoformat()
+                    "updated_at": get_msk_iso()
                 }
         except Exception:
             if attempt == 0:
@@ -133,7 +133,7 @@ def fetch_lukoil_station_fuels(station_item):
                 "coords": [station_item["lat"], station_item["lon"]],
                 "fuels": {"92": None, "95": None, "100": None, "dt": None, "lpg": None},
                 "status": "error",
-                "updated_at": datetime.now().isoformat()
+                "updated_at": get_msk_iso()
             }
 
 def fetch_lukoil_stations_nn():
